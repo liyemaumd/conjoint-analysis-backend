@@ -8,7 +8,6 @@ def analyze():
     product_name = data['productName']
     attributes = data['attributes']
 
-    # Placeholder analysis (can replace with real logic)
     analysis_result = {
         "product": product_name,
         "total_attributes": len(attributes),
@@ -16,7 +15,7 @@ def analyze():
     }
 
     return jsonify({
-        "message": f"Received {analysis_result['total_attributes']} attributes for '{product_name}'",
+        "message": f"Received {len(attributes)} attributes for {product_name}",
         "analysis": analysis_result
     })
 
