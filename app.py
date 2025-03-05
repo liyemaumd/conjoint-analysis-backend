@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS  # NEW
 
 app = Flask(__name__)
+CORS(app)  # NEW - allows cross-origin requests from anywhere (or restrict to specific domains)
 
 @app.route('/analyze', methods=['POST'])
 def analyze():
