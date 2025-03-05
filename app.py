@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS  # NEW
+from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # NEW - allows cross-origin requests from anywhere (or restrict to specific domains)
+
+# Explicitly allow only your Netlify frontend (stronger security than allowing "*")
+CORS(app, resources={r"/analyze": {"origins": "https://conjoint-manager-demo.netlify.app"}})
 
 @app.route('/analyze', methods=['POST'])
 def analyze():
