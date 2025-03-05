@@ -1,0 +1,6 @@
+git init
+git remote add origin https://github.com/liyemaumd/conjoint-analysis-backend.git
+git add .
+git commit -m "Initial commit - Flask backend for conjoint analysis"
+git branch -M main
+git push -u origin main
