@@ -8,6 +8,16 @@ CORS(app)
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
+# In-memory storage for product setup (can be swapped for a real database)
+product_setup = {}
+
+@app.route('/setup', methods=['POST'])
+def receive_setup():
+    global product_setup
+    product_setup = request.json
+    print("Received product setup:", product_setup)
+    return jsonify({"message": "Product setup saved successfully!"})
+
 @app.route('/upload', methods=['POST'])
 def upload_file():
     if 'file' not in request.files:
@@ -20,7 +30,6 @@ def upload_file():
     filepath = os.path.join(UPLOAD_FOLDER, file.filename)
     file.save(filepath)
 
-    # Placeholder response - in the future, this will trigger analysis
     return jsonify({'message': f'File {file.filename} uploaded successfully!', 'filepath': filepath})
 
 if __name__ == '__main__':
