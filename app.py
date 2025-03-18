@@ -36,14 +36,20 @@ def upload_file():
 @app.route('/bundle-analysis', methods=['POST'])
 def bundle_analysis():
     try:
-        # Debugging logs
         print("Received request for /bundle-analysis")
         print("Raw Request Data:", request.data)
         print("Request Headers:", request.headers)
 
-        data = request.get_json(silent=True)
-        if not data:
-            print("Error: Invalid JSON format or missing Content-Type header")
+        # Force Flask to check for JSON content-type
+        if request.content_type != "application/json":
+            print("Error: Content-Type is not application/json")
+            return jsonify({"error": "Content-Type must be application/json"}), 400
+
+        # Parse JSON manually
+        try:
+            data = request.get_json(force=True)
+        except Exception as e:
+            print("Error parsing JSON:", str(e))
             return jsonify({"error": "Invalid JSON format"}), 400
 
         selected_bundles = data.get("bundles", [])
@@ -76,13 +82,12 @@ def bundle_analysis():
                 response_data["salesData"].append(bundle_info["sales"])
                 response_data["marketShareData"].append(bundle_info["marketShare"])
 
-        print("Response Data:", response_data)  # Debugging log
+        print("Response Data:", response_data)
         return jsonify(response_data)
 
     except Exception as e:
-        print("Error processing /bundle-analysis:", str(e))  # Print error message
+        print("Error processing /bundle-analysis:", str(e))
         return jsonify({"error": str(e)}), 500
-
 
 
 if __name__ == '__main__':
