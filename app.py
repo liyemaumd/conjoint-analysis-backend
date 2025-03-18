@@ -36,9 +36,15 @@ def upload_file():
 @app.route('/bundle-analysis', methods=['POST'])
 def bundle_analysis():
     try:
-        data = request.get_json()
+        # Debugging logs
+        print("Received request for /bundle-analysis")
+        print("Raw Request Data:", request.data)
+        print("Request Headers:", request.headers)
+
+        data = request.get_json(silent=True)
         if not data:
-            return jsonify({"error": "Invalid JSON format"}), 400  # Debugging message
+            print("Error: Invalid JSON format or missing Content-Type header")
+            return jsonify({"error": "Invalid JSON format"}), 400
 
         selected_bundles = data.get("bundles", [])
         chart_type = data.get("chartType", "bar")
@@ -59,21 +65,24 @@ def bundle_analysis():
 
         for bundle in selected_bundles:
             if bundle in bundle_data:
-                data = bundle_data[bundle]
+                bundle_info = bundle_data[bundle]
                 response_data["tableData"].append({
                     "bundle": bundle.replace("bundle", "Bundle "),
-                    "sales": data["sales"],
-                    "marketShare": data["marketShare"],
-                    "profit": data["profit"]
+                    "sales": bundle_info["sales"],
+                    "marketShare": bundle_info["marketShare"],
+                    "profit": bundle_info["profit"]
                 })
                 response_data["chartLabels"].append(bundle.replace("bundle", "Bundle "))
-                response_data["salesData"].append(data["sales"])
-                response_data["marketShareData"].append(data["marketShare"])
+                response_data["salesData"].append(bundle_info["sales"])
+                response_data["marketShareData"].append(bundle_info["marketShare"])
 
+        print("Response Data:", response_data)  # Debugging log
         return jsonify(response_data)
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500  # Return internal error if something crashes
+        print("Error processing /bundle-analysis:", str(e))  # Print error message
+        return jsonify({"error": str(e)}), 500
+
 
 
 if __name__ == '__main__':
