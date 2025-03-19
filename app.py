@@ -3,8 +3,8 @@ from flask_cors import CORS
 import os
 
 app = Flask(__name__)
-#CORS(app)
-#CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins
+
+# Allow frontend access from Netlify
 CORS(app, resources={r"/*": {"origins": "https://conjoint-manager-demo.netlify.app"}}, supports_credentials=True)
 
 UPLOAD_FOLDER = 'uploads'
@@ -33,8 +33,6 @@ def upload_file():
 
     return jsonify({'message': f'File {file.filename} uploaded successfully!', 'filepath': filepath})
 
-
-# Explicitly handle OPTIONS preflight requests
 @app.route('/bundle-analysis', methods=['OPTIONS'])
 def handle_options():
     response = jsonify({'message': 'CORS preflight successful'})
@@ -47,20 +45,12 @@ def handle_options():
 def bundle_analysis():
     try:
         print("Received request for /bundle-analysis")
-        print("Raw Request Data:", request.data)
-        print("Request Headers:", request.headers)
+        print("Raw Request Data:", request.data.decode('utf-8'))
+        print("Request Headers:", dict(request.headers))
 
-        # Force Flask to check for JSON content-type
-        if request.content_type != "application/json":
-            print("Error: Content-Type is not application/json")
-            return jsonify({"error": "Content-Type must be application/json"}), 400
-
-        # Parse JSON manually
-        try:
-            data = request.get_json(force=True)
-        except Exception as e:
-            print("Error parsing JSON:", str(e))
-            return jsonify({"error": "Invalid JSON format"}), 400
+        data = request.get_json(silent=True)
+        if not data:
+            return jsonify({"error": "Invalid JSON format or missing Content-Type header"}), 400
 
         selected_bundles = data.get("bundles", [])
         chart_type = data.get("chartType", "bar")
@@ -105,7 +95,6 @@ def add_cors_headers(response):
     response.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
     response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
     return response
-
 
 if __name__ == '__main__':
     app.run(debug=True)
