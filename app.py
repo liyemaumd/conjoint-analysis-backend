@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
+import pandas as pd
 
 app = Flask(__name__)
 
@@ -10,87 +11,86 @@ CORS(app, resources={r"/*": {"origins": "https://conjoint-manager-demo.netlify.a
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-product_setup = {}
+# Path to preloaded data file
+DATA_FILE = "data/bundling_data.csv"
+
+# Load data when the server starts
+if os.path.exists(DATA_FILE):
+    try:
+        df = pd.read_csv(DATA_FILE) if DATA_FILE.endswith('.csv') else pd.read_excel(DATA_FILE)
+
+        # Perform initial processing (aggregate sales, market share, profit margin)
+        grouped_data = df.groupby('Bundle').agg({
+            'Sales': 'sum',
+            'Market Share': 'mean',
+            'Profit Margin': 'mean'
+        }).reset_index()
+
+    except Exception as e:
+        print(f"Error loading data file: {e}")
+        df = None
+        grouped_data = None
+else:
+    print(f"⚠️ Data file not found at {DATA_FILE}")
+    df = None
+    grouped_data = None
+
+@app.route('/get-analysis', methods=['GET'])
+def get_analysis():
+    # Returns processed data for frontend visualization
+    if grouped_data is None:
+        return jsonify({'error': 'Data file not loaded'}), 500
+
+    response_data = {
+        "tableData": grouped_data.to_dict(orient="records"),
+        "chartLabels": grouped_data["Bundle"].tolist(),
+        "salesData": grouped_data["Sales"].tolist(),
+        "marketShareData": grouped_data["Market Share"].tolist(),
+        "profitData": grouped_data["Profit Margin"].tolist()
+    }
+
+    return jsonify(response_data)
 
 @app.route('/setup', methods=['POST'])
 def receive_setup():
-    global product_setup
+    # Receives and stores product setup information
     product_setup = request.json
     print("Received product setup:", product_setup)
     return jsonify({"message": "Product setup saved successfully!"})
 
-@app.route('/upload', methods=['POST'])
-def upload_file():
-    if 'file' not in request.files:
-        return jsonify({'error': 'No file provided'}), 400
-
-    file = request.files['file']
-    if file.filename == '':
-        return jsonify({'error': 'No selected file'}), 400
-
-    filepath = os.path.join(UPLOAD_FOLDER, file.filename)
-    file.save(filepath)
-
-    return jsonify({'message': f'File {file.filename} uploaded successfully!', 'filepath': filepath})
-
-@app.route('/bundle-analysis', methods=['OPTIONS'])
-def handle_options():
-    response = jsonify({'message': 'CORS preflight successful'})
-    response.headers.add("Access-Control-Allow-Origin", "https://conjoint-manager-demo.netlify.app")
-    response.headers.add("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
-    response.headers.add("Access-Control-Allow-Headers", "Content-Type, Authorization")
-    return response
-
 @app.route('/bundle-analysis', methods=['POST'])
 def bundle_analysis():
+    # Analyzes selected bundles and returns relevant data
     try:
-        print("Received request for /bundle-analysis")
-        print("Raw Request Data:", request.data.decode('utf-8'))
-        print("Request Headers:", dict(request.headers))
-
         data = request.get_json(silent=True)
         if not data:
-            return jsonify({"error": "Invalid JSON format or missing Content-Type header"}), 400
+            return jsonify({"error": "Invalid JSON format"}), 400
 
         selected_bundles = data.get("bundles", [])
         chart_type = data.get("chartType", "bar")
 
-        # Simulated performance data for each bundle
-        bundle_data = {
-            "bundle1": {"sales": 20000, "marketShare": 15, "profit": 30},
-            "bundle2": {"sales": 25000, "marketShare": 20, "profit": 35},
-            "bundle3": {"sales": 18000, "marketShare": 12, "profit": 40},
-        }
+        if grouped_data is None:
+            return jsonify({'error': 'Data file not loaded'}), 500
+
+        # Filter only selected bundles
+        filtered_data = grouped_data[grouped_data["Bundle"].isin(selected_bundles)]
 
         response_data = {
-            "tableData": [],
-            "chartLabels": [],
-            "salesData": [],
-            "marketShareData": []
+            "tableData": filtered_data.to_dict(orient="records"),
+            "chartLabels": filtered_data["Bundle"].tolist(),
+            "salesData": filtered_data["Sales"].tolist(),
+            "marketShareData": filtered_data["Market Share"].tolist(),
+            "profitData": filtered_data["Profit Margin"].tolist()
         }
 
-        for bundle in selected_bundles:
-            if bundle in bundle_data:
-                bundle_info = bundle_data[bundle]
-                response_data["tableData"].append({
-                    "bundle": bundle.replace("bundle", "Bundle "),
-                    "sales": bundle_info["sales"],
-                    "marketShare": bundle_info["marketShare"],
-                    "profit": bundle_info["profit"]
-                })
-                response_data["chartLabels"].append(bundle.replace("bundle", "Bundle "))
-                response_data["salesData"].append(bundle_info["sales"])
-                response_data["marketShareData"].append(bundle_info["marketShare"])
-
-        print("Response Data:", response_data)
         return jsonify(response_data)
 
     except Exception as e:
-        print("Error processing /bundle-analysis:", str(e))
         return jsonify({"error": str(e)}), 500
 
 @app.after_request
 def add_cors_headers(response):
+    # Ensures all responses include CORS headers
     response.headers["Access-Control-Allow-Origin"] = "https://conjoint-manager-demo.netlify.app"
     response.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
     response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
@@ -98,3 +98,4 @@ def add_cors_headers(response):
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
