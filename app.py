@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 #CORS(app)
 #CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins
-CORS(app, resources={r"/*": {"origins": "https://conjoint-manager-demo.netlify.app"}})
+CORS(app, resources={r"/*": {"origins": "https://conjoint-manager-demo.netlify.app"}}, supports_credentials=True)
 
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
@@ -33,6 +33,15 @@ def upload_file():
 
     return jsonify({'message': f'File {file.filename} uploaded successfully!', 'filepath': filepath})
 
+
+# Explicitly handle OPTIONS preflight requests
+@app.route('/bundle-analysis', methods=['OPTIONS'])
+def handle_options():
+    response = jsonify({'message': 'CORS preflight successful'})
+    response.headers.add("Access-Control-Allow-Origin", "https://conjoint-manager-demo.netlify.app")
+    response.headers.add("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+    response.headers.add("Access-Control-Allow-Headers", "Content-Type, Authorization")
+    return response
 
 @app.route('/bundle-analysis', methods=['POST'])
 def bundle_analysis():
@@ -89,6 +98,13 @@ def bundle_analysis():
     except Exception as e:
         print("Error processing /bundle-analysis:", str(e))
         return jsonify({"error": str(e)}), 500
+
+@app.after_request
+def add_cors_headers(response):
+    response.headers["Access-Control-Allow-Origin"] = "https://conjoint-manager-demo.netlify.app"
+    response.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
+    response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
+    return response
 
 
 if __name__ == '__main__':
