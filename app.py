@@ -15,31 +15,42 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 DATA_FILE = "data/bundling_data.csv"
 
 # Load data when the server starts
+grouped_data = None
+
 if os.path.exists(DATA_FILE):
     try:
         df = pd.read_csv(DATA_FILE) if DATA_FILE.endswith('.csv') else pd.read_excel(DATA_FILE)
 
-        # Perform initial processing (aggregate sales, market share, profit margin)
-        grouped_data = df.groupby('Bundle').agg({
-            'Sales': 'sum',
-            'Market Share': 'mean',
-            'Profit Margin': 'mean'
-        }).reset_index()
+        print("✅ Data file loaded successfully!")
+        print(df.head())  # Debugging: Print first few rows
+
+        # Ensure expected columns exist before aggregation
+        required_columns = {'Bundle', 'Sales', 'Market Share', 'Profit Margin'}
+        if not required_columns.issubset(df.columns):
+            print(f"⚠️ Missing columns in dataset: {required_columns - set(df.columns)}")
+            grouped_data = None
+        else:
+            # Perform initial processing (aggregate sales, market share, profit margin)
+            grouped_data = df.groupby('Bundle', as_index=False).agg({
+                'Sales': 'sum',
+                'Market Share': 'mean',
+                'Profit Margin': 'mean'
+            })
+
+            print("✅ Processed data for analysis:")
+            print(grouped_data)
 
     except Exception as e:
-        print(f"Error loading data file: {e}")
-        df = None
+        print(f"❌ Error loading data file: {e}")
         grouped_data = None
 else:
     print(f"⚠️ Data file not found at {DATA_FILE}")
-    df = None
-    grouped_data = None
 
 @app.route('/get-analysis', methods=['GET'])
 def get_analysis():
     # Returns processed data for frontend visualization
     if grouped_data is None:
-        return jsonify({'error': 'Data file not loaded'}), 500
+        return jsonify({'error': 'Data file not loaded or incorrect format'}), 500
 
     response_data = {
         "tableData": grouped_data.to_dict(orient="records"),
@@ -48,6 +59,9 @@ def get_analysis():
         "marketShareData": grouped_data["Market Share"].tolist(),
         "profitData": grouped_data["Profit Margin"].tolist()
     }
+
+    print("✅ Sending analysis data to frontend:")
+    print(response_data)  # Debugging
 
     return jsonify(response_data)
 
@@ -83,6 +97,9 @@ def bundle_analysis():
             "profitData": filtered_data["Profit Margin"].tolist()
         }
 
+        print("✅ Sending filtered analysis data to frontend:")
+        print(response_data)
+
         return jsonify(response_data)
 
     except Exception as e:
@@ -98,4 +115,3 @@ def add_cors_headers(response):
 
 if __name__ == '__main__':
     app.run(debug=True)
-    
