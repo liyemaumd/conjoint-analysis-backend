@@ -20,6 +20,7 @@ conjoint_file = "data/credit_card_parameters.csv"
 grouped_data = None
 
 segments = None
+conjoint_df = None
 
 if os.path.exists(DATA_FILE):
     try:
@@ -99,8 +100,23 @@ feature_importance_data = {
 @app.route('/feature-importance', methods=['GET'])
 def get_feature_importance():
     # Returns feature importance data for part-worth analysis
-    print("✅ Sending feature importance data:", feature_importance_data)  # Debugging log
-    return jsonify(feature_importance_data)
+#    print("✅ Sending feature importance data:", feature_importance_data)  # Debugging log
+#    return jsonify(feature_importance_data)
+    try:
+        selected_segment = request.args.get("segment", "All")  # Default to "All" if none provided
+
+        result_dict = {"features": [], "importance": []}
+        df_subset = conjoint_df[conjoint_df["Segment"] == selected_segment]
+        for attr, group in df_subset.groupby("Attribute"):
+            max_value = group["Coefficient"].max()
+            min_value = group["Coefficient"].min()
+            diff = max_value - min_value
+    
+            result_dict["features"].append(attr)
+            result_dict["importance"].append(diff)
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 @app.route('/bundle-analysis', methods=['POST'])
 def bundle_analysis():
