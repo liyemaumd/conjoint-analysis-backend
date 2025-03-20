@@ -72,6 +72,18 @@ def receive_setup():
     print("Received product setup:", product_setup)
     return jsonify({"message": "Product setup saved successfully!"})
 
+# Simulated feature importance data (replace with actual analysis later)
+feature_importance_data = {
+    "features": ["Annual Fees", "Cashback Rates", "Intro APRs", "Digital Features", "APRs", "Perks"],
+    "importance": [20, 25, 15, 10, 18, 12]  # Example importance percentages
+}
+
+@app.route('/feature-importance', methods=['GET'])
+def get_feature_importance():
+    # Returns feature importance data for part-worth analysis
+    print("✅ Sending feature importance data:", feature_importance_data)  # Debugging log
+    return jsonify(feature_importance_data)
+
 @app.route('/bundle-analysis', methods=['POST'])
 def bundle_analysis():
     # Analyzes selected bundles and returns relevant data
@@ -113,17 +125,6 @@ def add_cors_headers(response):
     response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
     return response
 
-# Simulated feature importance data (replace with actual analysis later)
-feature_importance_data = {
-    "features": ["Annual Fees", "Cashback Rates", "Intro APRs", "Digital Features", "APRs", "Perks"],
-    "importance": [20, 25, 15, 10, 18, 12]  # Example importance percentages
-}
-
-@app.route('/feature-importance', methods=['GET'])
-def get_feature_importance():
-    # Returns feature importance data for part-worth analysis
-    print("✅ Sending feature importance data:", feature_importance_data)  # Debugging log
-    return jsonify(feature_importance_data)
 
 
 if __name__ == '__main__':
