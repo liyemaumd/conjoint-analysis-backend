@@ -115,6 +115,8 @@ def get_feature_importance():
             result_dict["features"].append(attr)
             result_dict["importance"].append(diff)
 
+        return jsonify(result_dict)
+
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
