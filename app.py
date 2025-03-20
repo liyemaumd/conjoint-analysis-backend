@@ -14,8 +14,12 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 # Path to preloaded data file
 DATA_FILE = "data/bundling_data.csv"
 
+conjoint_file = "data/credit_card_parameters.csv"
+
 # Load data when the server starts
 grouped_data = None
+
+segments = None
 
 if os.path.exists(DATA_FILE):
     try:
@@ -39,6 +43,9 @@ if os.path.exists(DATA_FILE):
 
             print("✅ Processed data for analysis:")
             print(grouped_data)
+
+        conjoint_df = pd.read_csv(conjoint_file) if conjoint_file.endswith('.csv') else pd.read_excel(conjoint_file)
+        segments = conjoint_df["Segment"].unique()
 
     except Exception as e:
         print(f"❌ Error loading data file: {e}")
@@ -73,13 +80,15 @@ def receive_setup():
     return jsonify({"message": "Product setup saved successfully!"})
 
 # Simulated segment data (replace with actual segmentation logic)
-customer_segments = ["Young Professionals", "Families", "Retirees", "Students", "Frequent Travelers"]
+#customer_segments = ["Young Professionals", "Families", "Retirees", "Students", "Frequent Travelers"]
 
 @app.route('/segments', methods=['GET'])
 def get_segments():
     """Returns a list of customer segments."""
-    print("✅ Sending customer segments:", customer_segments)  # Debugging log
-    return jsonify({"segments": customer_segments})
+#    print("✅ Sending customer segments:", customer_segments)  # Debugging log
+#    return jsonify({"segments": customer_segments})
+    print("✅ Sending customer segments:", segments)  # Debugging log
+    return jsonify({"segments": segments})
 
 # Simulated feature importance data (replace with actual analysis later)
 feature_importance_data = {

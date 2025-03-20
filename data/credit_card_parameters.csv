@@ -1,0 +1,349 @@
+Attribute,Level,Segment,Coefficient
+Annual Fee,$0 ,All,0
+Annual Fee,$95 ,All,-0.880464928
+Annual Fee,$150 ,All,-1.585148115
+Annual Fee,$500 ,All,-3.12481856
+Cashback Rate,1%,All,0
+Cashback Rate,2%,All,1.321507327
+Cashback Rate,3%,All,1.95037223
+Intro APR,None,All,0
+Intro APR,0% for 12 months,All,0.868230903
+Intro APR,0% for 18 months,All,1.207803658
+Digital Feature,Basic app,All,0
+Digital Feature,Spend Insights,All,0.485745885
+Digital Feature,Budget Coaching,All,0.575864265
+Interest Rate,15%,All,0
+Interest Rate,20%,All,-0.540511726
+Interest Rate,25%,All,-1.115991357
+Interest Rate,30%,All,-1.884640171
+Perk,None,All,0
+Perk,Airport Lounge,All,0.759020758
+Perk,Travel Insurance,All,0.756461074
+Annual Fee,$0 ,Region - Northeast,0
+Annual Fee,$95 ,Region - Northeast,-0.837009361
+Annual Fee,$150 ,Region - Northeast,-1.528189581
+Annual Fee,$500 ,Region - Northeast,-3.061690207
+Cashback Rate,1%,Region - Northeast,0
+Cashback Rate,2%,Region - Northeast,1.326079588
+Cashback Rate,3%,Region - Northeast,1.961348097
+Intro APR,None,Region - Northeast,0
+Intro APR,0% for 12 months,Region - Northeast,0.868691215
+Intro APR,0% for 18 months,Region - Northeast,1.197544844
+Digital Feature,Basic app,Region - Northeast,0
+Digital Feature,Spend Insights,Region - Northeast,0.52220819
+Digital Feature,Budget Coaching,Region - Northeast,0.562135292
+Interest Rate,15%,Region - Northeast,0
+Interest Rate,20%,Region - Northeast,-0.497592522
+Interest Rate,25%,Region - Northeast,-1.134910373
+Interest Rate,30%,Region - Northeast,-1.873138335
+Perk,None,Region - Northeast,0
+Perk,Airport Lounge,Region - Northeast,0.758065849
+Perk,Travel Insurance,Region - Northeast,0.777637119
+Annual Fee,$0 ,Region - West,0
+Annual Fee,$95 ,Region - West,-0.869504981
+Annual Fee,$150 ,Region - West,-1.529461915
+Annual Fee,$500 ,Region - West,-3.089759358
+Cashback Rate,1%,Region - West,0
+Cashback Rate,2%,Region - West,1.327566174
+Cashback Rate,3%,Region - West,1.925351191
+Intro APR,None,Region - West,0
+Intro APR,0% for 12 months,Region - West,0.843588119
+Intro APR,0% for 18 months,Region - West,1.202230437
+Digital Feature,Basic app,Region - West,0
+Digital Feature,Spend Insights,Region - West,0.52920989
+Digital Feature,Budget Coaching,Region - West,0.594081739
+Interest Rate,15%,Region - West,0
+Interest Rate,20%,Region - West,-0.575732784
+Interest Rate,25%,Region - West,-1.152543908
+Interest Rate,30%,Region - West,-1.897705025
+Perk,None,Region - West,0
+Perk,Airport Lounge,Region - West,0.838415028
+Perk,Travel Insurance,Region - West,0.783901124
+Annual Fee,$0 ,Region - South,0
+Annual Fee,$95 ,Region - South,-0.849471513
+Annual Fee,$150 ,Region - South,-1.56756119
+Annual Fee,$500 ,Region - South,-3.029174467
+Cashback Rate,1%,Region - South,0
+Cashback Rate,2%,Region - South,1.276556808
+Cashback Rate,3%,Region - South,1.909817306
+Intro APR,None,Region - South,0
+Intro APR,0% for 12 months,Region - South,0.926541998
+Intro APR,0% for 18 months,Region - South,1.225771003
+Digital Feature,Basic app,Region - South,0
+Digital Feature,Spend Insights,Region - South,0.435674228
+Digital Feature,Budget Coaching,Region - South,0.573639816
+Interest Rate,15%,Region - South,0
+Interest Rate,20%,Region - South,-0.563925771
+Interest Rate,25%,Region - South,-1.108545778
+Interest Rate,30%,Region - South,-1.890708003
+Perk,None,Region - South,0
+Perk,Airport Lounge,Region - South,0.792958967
+Perk,Travel Insurance,Region - South,0.807092205
+Annual Fee,$0 ,Wealthy,0
+Annual Fee,$95 ,Wealthy,-0.239169406
+Annual Fee,$150 ,Wealthy,-0.272899377
+Annual Fee,$500 ,Wealthy,-0.658723819
+Cashback Rate,1%,Wealthy,0
+Cashback Rate,2%,Wealthy,1.494954007
+Cashback Rate,3%,Wealthy,2.453617126
+Intro APR,None,Wealthy,0
+Intro APR,0% for 12 months,Wealthy,0.622614207
+Intro APR,0% for 18 months,Wealthy,0.993006022
+Digital Feature,Basic app,Wealthy,0
+Digital Feature,Spend Insights,Wealthy,0.40838627
+Digital Feature,Budget Coaching,Wealthy,0.459759965
+Interest Rate,15%,Wealthy,0
+Interest Rate,20%,Wealthy,-0.970779518
+Interest Rate,25%,Wealthy,-1.675907932
+Interest Rate,30%,Wealthy,-2.457362024
+Perk,None,Wealthy,0
+Perk,Airport Lounge,Wealthy,1.345447797
+Perk,Travel Insurance,Wealthy,0.918705019
+Annual Fee,$0 ,Working Class,0
+Annual Fee,$95 ,Working Class,-2.053395183
+Annual Fee,$150 ,Working Class,-3.542251132
+Annual Fee,$500 ,Working Class,-7.384765635
+Cashback Rate,1%,Working Class,0
+Cashback Rate,2%,Working Class,1.236199627
+Cashback Rate,3%,Working Class,1.639984847
+Intro APR,None,Working Class,0
+Intro APR,0% for 12 months,Working Class,1.18165425
+Intro APR,0% for 18 months,Working Class,1.564466954
+Digital Feature,Basic app,Working Class,0
+Digital Feature,Spend Insights,Working Class,0.655333177
+Digital Feature,Budget Coaching,Working Class,0.82765298
+Interest Rate,15%,Working Class,0
+Interest Rate,20%,Working Class,-0.289103395
+Interest Rate,25%,Working Class,-0.858044432
+Interest Rate,30%,Working Class,-1.738973726
+Perk,None,Working Class,0
+Perk,Airport Lounge,Working Class,0.391617881
+Perk,Travel Insurance,Working Class,0.742116045
+Annual Fee,$0 ,Middle Class,0
+Annual Fee,$95 ,Middle Class,-0.914524683
+Annual Fee,$150 ,Middle Class,-1.849088162
+Annual Fee,$500 ,Middle Class,-4.368859418
+Cashback Rate,1%,Middle Class,0
+Cashback Rate,2%,Middle Class,1.61254474
+Cashback Rate,3%,Middle Class,2.288099377
+Intro APR,None,Middle Class,0
+Intro APR,0% for 12 months,Middle Class,1.216097711
+Intro APR,0% for 18 months,Middle Class,1.58626759
+Digital Feature,Basic app,Middle Class,0
+Digital Feature,Spend Insights,Middle Class,0.618978722
+Digital Feature,Budget Coaching,Middle Class,0.71658683
+Interest Rate,15%,Middle Class,0
+Interest Rate,20%,Middle Class,-0.573813811
+Interest Rate,25%,Middle Class,-1.262337244
+Interest Rate,30%,Middle Class,-2.236316932
+Perk,None,Middle Class,0
+Perk,Airport Lounge,Middle Class,0.878287585
+Perk,Travel Insurance,Middle Class,0.949452987
+Annual Fee,$0 ,Upper Middle Class,0
+Annual Fee,$95 ,Upper Middle Class,-0.400569129
+Annual Fee,$150 ,Upper Middle Class,-0.869852523
+Annual Fee,$500 ,Upper Middle Class,-2.241389547
+Cashback Rate,1%,Upper Middle Class,0
+Cashback Rate,2%,Upper Middle Class,1.675301949
+Cashback Rate,3%,Upper Middle Class,2.579926781
+Intro APR,None,Upper Middle Class,0
+Intro APR,0% for 12 months,Upper Middle Class,0.87934629
+Intro APR,0% for 18 months,Upper Middle Class,1.326848266
+Digital Feature,Basic app,Upper Middle Class,0
+Digital Feature,Spend Insights,Upper Middle Class,0.517111425
+Digital Feature,Budget Coaching,Upper Middle Class,0.609441225
+Interest Rate,15%,Upper Middle Class,0
+Interest Rate,20%,Upper Middle Class,-0.81944689
+Interest Rate,25%,Upper Middle Class,-1.49555443
+Interest Rate,30%,Upper Middle Class,-2.456394476
+Perk,None,Upper Middle Class,0
+Perk,Airport Lounge,Upper Middle Class,0.983744449
+Perk,Travel Insurance,Upper Middle Class,0.887372139
+Annual Fee,$0 ,Male,0
+Annual Fee,$95 ,Male,-0.947290714
+Annual Fee,$150 ,Male,-1.614179163
+Annual Fee,$500 ,Male,-3.100602875
+Cashback Rate,1%,Male,0
+Cashback Rate,2%,Male,1.339274749
+Cashback Rate,3%,Male,1.941496272
+Intro APR,None,Male,0
+Intro APR,0% for 12 months,Male,0.830008798
+Intro APR,0% for 18 months,Male,1.171998675
+Digital Feature,Basic app,Male,0
+Digital Feature,Spend Insights,Male,0.431303895
+Digital Feature,Budget Coaching,Male,0.507895922
+Interest Rate,15%,Male,0
+Interest Rate,20%,Male,-0.511398791
+Interest Rate,25%,Male,-1.065331928
+Interest Rate,30%,Male,-1.834352573
+Perk,None,Male,0
+Perk,Airport Lounge,Male,0.830487005
+Perk,Travel Insurance,Male,0.782460661
+Annual Fee,$0 ,Female,0
+Annual Fee,$95 ,Female,-0.811382928
+Annual Fee,$150 ,Female,-1.554574815
+Annual Fee,$500 ,Female,-3.145092919
+Cashback Rate,1%,Female,0
+Cashback Rate,2%,Female,1.315189214
+Cashback Rate,3%,Female,1.967920987
+Intro APR,None,Female,0
+Intro APR,0% for 12 months,Female,0.90862347
+Intro APR,0% for 18 months,Female,1.251048708
+Digital Feature,Basic app,Female,0
+Digital Feature,Spend Insights,Female,0.540249224
+Digital Feature,Budget Coaching,Female,0.636378888
+Interest Rate,15%,Female,0
+Interest Rate,20%,Female,-0.577545659
+Interest Rate,25%,Female,-1.178022669
+Interest Rate,30%,Female,-1.952262405
+Perk,None,Female,0
+Perk,Airport Lounge,Female,0.68561666
+Perk,Travel Insurance,Female,0.726151361
+Annual Fee,$0 ,Cohort 1,0
+Annual Fee,$95 ,Cohort 1,-0.485829553
+Annual Fee,$150 ,Cohort 1,-1.539419217
+Annual Fee,$500 ,Cohort 1,-4.673212648
+Cashback Rate,1%,Cohort 1,0
+Cashback Rate,2%,Cohort 1,2.678897667
+Cashback Rate,3%,Cohort 1,3.835650561
+Intro APR,None,Cohort 1,0
+Intro APR,0% for 12 months,Cohort 1,1.77623679
+Intro APR,0% for 18 months,Cohort 1,2.367866903
+Digital Feature,Basic app,Cohort 1,0
+Digital Feature,Spend Insights,Cohort 1,0.991438255
+Digital Feature,Budget Coaching,Cohort 1,1.082488814
+Interest Rate,15%,Cohort 1,0
+Interest Rate,20%,Cohort 1,-0.97738836
+Interest Rate,25%,Cohort 1,-2.017723381
+Interest Rate,30%,Cohort 1,-3.367960407
+Perk,None,Cohort 1,0
+Perk,Airport Lounge,Cohort 1,1.61744655
+Perk,Travel Insurance,Cohort 1,1.512656525
+Annual Fee,$0 ,Cohort 2,0
+Annual Fee,$95 ,Cohort 2,-0.213312005
+Annual Fee,$150 ,Cohort 2,-0.372460484
+Annual Fee,$500 ,Cohort 2,-0.019822175
+Cashback Rate,1%,Cohort 2,0
+Cashback Rate,2%,Cohort 2,1.473978351
+Cashback Rate,3%,Cohort 2,2.572327245
+Intro APR,None,Cohort 2,0
+Intro APR,0% for 12 months,Cohort 2,0.725608605
+Intro APR,0% for 18 months,Cohort 2,1.034670717
+Digital Feature,Basic app,Cohort 2,0
+Digital Feature,Spend Insights,Cohort 2,0.301496606
+Digital Feature,Budget Coaching,Cohort 2,0.24734335
+Interest Rate,15%,Cohort 2,0
+Interest Rate,20%,Cohort 2,0.03342367
+Interest Rate,25%,Cohort 2,-0.500040333
+Interest Rate,30%,Cohort 2,-1.821413919
+Perk,None,Cohort 2,0
+Perk,Airport Lounge,Cohort 2,0.900855538
+Perk,Travel Insurance,Cohort 2,0.89257525
+Annual Fee,$0 ,Cohort 3,0
+Annual Fee,$95 ,Cohort 3,-0.27741018
+Annual Fee,$150 ,Cohort 3,-0.282827283
+Annual Fee,$500 ,Cohort 3,-0.614923299
+Cashback Rate,1%,Cohort 3,0
+Cashback Rate,2%,Cohort 3,0.830995875
+Cashback Rate,3%,Cohort 3,1.903064151
+Intro APR,None,Cohort 3,0
+Intro APR,0% for 12 months,Cohort 3,0.151068258
+Intro APR,0% for 18 months,Cohort 3,1.119361843
+Digital Feature,Basic app,Cohort 3,0
+Digital Feature,Spend Insights,Cohort 3,0.554058859
+Digital Feature,Budget Coaching,Cohort 3,0.474251689
+Interest Rate,15%,Cohort 3,0
+Interest Rate,20%,Cohort 3,0.032808319
+Interest Rate,25%,Cohort 3,-1.056539135
+Interest Rate,30%,Cohort 3,-1.466698726
+Perk,None,Cohort 3,0
+Perk,Airport Lounge,Cohort 3,0.647268536
+Perk,Travel Insurance,Cohort 3,0.44540874
+Annual Fee,$0 ,Cohort 4,0
+Annual Fee,$95 ,Cohort 4,-0.546807185
+Annual Fee,$150 ,Cohort 4,-1.516002354
+Annual Fee,$500 ,Cohort 4,-1.817072309
+Cashback Rate,1%,Cohort 4,0
+Cashback Rate,2%,Cohort 4,0.202359671
+Cashback Rate,3%,Cohort 4,0.86905754
+Intro APR,None,Cohort 4,0
+Intro APR,0% for 12 months,Cohort 4,-0.605837801
+Intro APR,0% for 18 months,Cohort 4,-0.434162638
+Digital Feature,Basic app,Cohort 4,0
+Digital Feature,Spend Insights,Cohort 4,0.053518886
+Digital Feature,Budget Coaching,Cohort 4,-0.340915961
+Interest Rate,15%,Cohort 4,0
+Interest Rate,20%,Cohort 4,-0.404983929
+Interest Rate,25%,Cohort 4,-0.415919658
+Interest Rate,30%,Cohort 4,-1.126150234
+Perk,None,Cohort 4,0
+Perk,Airport Lounge,Cohort 4,0.344304043
+Perk,Travel Insurance,Cohort 4,-0.311151206
+Annual Fee,$0 ,Cohort 5,0
+Annual Fee,$95 ,Cohort 5,-0.32574962
+Annual Fee,$150 ,Cohort 5,-0.934849698
+Annual Fee,$500 ,Cohort 5,-1.414895171
+Cashback Rate,1%,Cohort 5,0
+Cashback Rate,2%,Cohort 5,0.843599007
+Cashback Rate,3%,Cohort 5,1.700619288
+Intro APR,None,Cohort 5,0
+Intro APR,0% for 12 months,Cohort 5,0.149145485
+Intro APR,0% for 18 months,Cohort 5,0.215328924
+Digital Feature,Basic app,Cohort 5,0
+Digital Feature,Spend Insights,Cohort 5,0.149656863
+Digital Feature,Budget Coaching,Cohort 5,0.124417254
+Interest Rate,15%,Cohort 5,0
+Interest Rate,20%,Cohort 5,-0.303636044
+Interest Rate,25%,Cohort 5,-0.720501142
+Interest Rate,30%,Cohort 5,-1.667719522
+Perk,None,Cohort 5,0
+Perk,Airport Lounge,Cohort 5,1.013058024
+Perk,Travel Insurance,Cohort 5,0.773349219
+Annual Fee,$0 ,Cohort 6,0
+Annual Fee,$95 ,Cohort 6,0.091715203
+Annual Fee,$150 ,Cohort 6,-0.685470734
+Annual Fee,$500 ,Cohort 6,0.019349587
+Cashback Rate,1%,Cohort 6,0
+Cashback Rate,2%,Cohort 6,0.850770821
+Cashback Rate,3%,Cohort 6,1.680920924
+Intro APR,None,Cohort 6,0
+Intro APR,0% for 12 months,Cohort 6,0.506013993
+Intro APR,0% for 18 months,Cohort 6,0.876631034
+Digital Feature,Basic app,Cohort 6,0
+Digital Feature,Spend Insights,Cohort 6,0.101761907
+Digital Feature,Budget Coaching,Cohort 6,0.842775433
+Interest Rate,15%,Cohort 6,0
+Interest Rate,20%,Cohort 6,-0.19869555
+Interest Rate,25%,Cohort 6,-0.669125064
+Interest Rate,30%,Cohort 6,-1.533376477
+Perk,None,Cohort 6,0
+Perk,Airport Lounge,Cohort 6,1.001734744
+Perk,Travel Insurance,Cohort 6,0.726523641
+Annual Fee,$0 ,Cohort 7,0
+Annual Fee,$95 ,Cohort 7,-2.457344506
+Annual Fee,$150 ,Cohort 7,-3.885687619
+Annual Fee,$500 ,Cohort 7,-7.13487249
+Cashback Rate,1%,Cohort 7,0
+Cashback Rate,2%,Cohort 7,0.904442962
+Cashback Rate,3%,Cohort 7,1.218736838
+Intro APR,None,Cohort 7,0
+Intro APR,0% for 12 months,Cohort 7,0.965066907
+Intro APR,0% for 18 months,Cohort 7,1.389336122
+Digital Feature,Basic app,Cohort 7,0
+Digital Feature,Spend Insights,Cohort 7,0.503096855
+Digital Feature,Budget Coaching,Cohort 7,0.804256757
+Interest Rate,15%,Cohort 7,0
+Interest Rate,20%,Cohort 7,-0.55495215
+Interest Rate,25%,Cohort 7,-1.054531064
+Interest Rate,30%,Cohort 7,-1.748606288
+Perk,None,Cohort 7,0
+Perk,Airport Lounge,Cohort 7,0.112608566
+Perk,Travel Insurance,Cohort 7,0.523615566
+Segment Prob,NA,Cohort 1,0.560680193
+Segment Prob,NA,Cohort 2,0.041359447
+Segment Prob,NA,Cohort 3,0.035621558
+Segment Prob,NA,Cohort 4,0.035158735
+Segment Prob,NA,Cohort 5,0.035514478
+Segment Prob,NA,Cohort 6,0.035707245
+Segment Prob,NA,Cohort 7,0.255958344
+,,,
