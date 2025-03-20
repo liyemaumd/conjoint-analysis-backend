@@ -111,10 +111,15 @@ def get_feature_importance():
             max_value = group["Coefficient"].max()
             min_value = group["Coefficient"].min()
             diff = max_value - min_value
-    
+
             result_dict["features"].append(attr)
             result_dict["importance"].append(diff)
 
+        sum_diff = sum(result_dict["importance"])
+
+        diff_pct = [d/sum_diff for d in result_dict["importance"]]
+        result_dict["importance"] = diff_pct
+        
         return jsonify(result_dict)
 
     except Exception as e:
