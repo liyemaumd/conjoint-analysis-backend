@@ -117,9 +117,9 @@ def get_feature_importance():
 
         sum_diff = sum(result_dict["importance"])
 
-        diff_pct = [d/sum_diff for d in result_dict["importance"]]
+        diff_pct = [d/sum_diff*100 for d in result_dict["importance"]]
         result_dict["importance"] = diff_pct
-        
+
         return jsonify(result_dict)
 
     except Exception as e:
