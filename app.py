@@ -45,7 +45,7 @@ if os.path.exists(DATA_FILE):
             print(grouped_data)
 
         conjoint_df = pd.read_csv(conjoint_file) if conjoint_file.endswith('.csv') else pd.read_excel(conjoint_file)
-        segments = conjoint_df["Segment"].unique()
+        segments = conjoint_df["Segment"].unique().tolist()
 
     except Exception as e:
         print(f"❌ Error loading data file: {e}")
