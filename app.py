@@ -72,6 +72,15 @@ def receive_setup():
     print("Received product setup:", product_setup)
     return jsonify({"message": "Product setup saved successfully!"})
 
+# Simulated segment data (replace with actual segmentation logic)
+customer_segments = ["Young Professionals", "Families", "Retirees", "Students", "Frequent Travelers"]
+
+@app.route('/segments', methods=['GET'])
+def get_segments():
+    """Returns a list of customer segments."""
+    print("✅ Sending customer segments:", customer_segments)  # Debugging log
+    return jsonify({"segments": customer_segments})
+
 # Simulated feature importance data (replace with actual analysis later)
 feature_importance_data = {
     "features": ["Annual Fees", "Cashback Rates", "Intro APRs", "Digital Features", "APRs", "Perks"],
