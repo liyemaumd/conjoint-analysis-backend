@@ -107,6 +107,7 @@ def get_feature_importance():
 
         result_dict = {"features": [], "importance": []}
         df_subset = conjoint_df[conjoint_df["Segment"] == selected_segment]
+        df_subset = df_subset[df_subset["Attribute"] != "Segment Prob"]
         for attr, group in df_subset.groupby("Attribute"):
             max_value = group["Coefficient"].max()
             min_value = group["Coefficient"].min()
@@ -124,6 +125,43 @@ def get_feature_importance():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+@app.route('/segmentation-strategy', methods=['GET'])
+def get_segmentation_data():
+    # Sample static data for illustration
+    data = [
+        {
+            "segment": "Value Seekers",
+            "annual_fee": "$0",
+            "cashback_rate": "1%",
+            "intro_apr": "0% for 12 months",
+            "digital_feature": "Basic App",
+            "interest_rate": "20%",
+            "perk": "None",
+            "profit": 12000
+        },
+        {
+            "segment": "Frequent Travelers",
+            "annual_fee": "$150",
+            "cashback_rate": "2%",
+            "intro_apr": "0% for 18 months",
+            "digital_feature": "Spend Insights",
+            "interest_rate": "25%",
+            "perk": "Airport Lounge",
+            "profit": 27000
+        },
+        {
+            "segment": "Premium Users",
+            "annual_fee": "$500",
+            "cashback_rate": "3%",
+            "intro_apr": "None",
+            "digital_feature": "Budget Coaching",
+            "interest_rate": "30%",
+            "perk": "Travel Insurance",
+            "profit": 34000
+        }
+    ]
+    return jsonify(data)
 
 @app.route('/bundle-analysis', methods=['POST'])
 def bundle_analysis():
