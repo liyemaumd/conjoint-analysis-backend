@@ -57,6 +57,29 @@ if os.path.exists(DATA_FILE):
 else:
     print(f"⚠️ Data file not found at {DATA_FILE}")
 
+
+@app.route("/optimize-price", methods=["POST"])
+def optimize_price():
+    data = request.get_json()
+    bundles = data.get("bundles", [])
+
+    results = []
+    for i, b in enumerate(bundles):
+        cashback = b["cashback_rate"].replace("%", "")
+        try:
+            cb_rate = float(cashback)
+        except:
+            cb_rate = 1.0
+        optimal_apr = f"{15 + int(cb_rate * 2)}%"
+        profit = round(10000 + cb_rate * 2000, 2)
+        results.append({
+            "optimal_apr": optimal_apr,
+            "profit": profit
+        })
+
+    return jsonify({ "results": results })
+
+
 @app.route('/get-analysis', methods=['GET'])
 def get_analysis():
     # Returns processed data for frontend visualization
@@ -211,3 +234,4 @@ def add_cors_headers(response):
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
