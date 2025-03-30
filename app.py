@@ -8,6 +8,9 @@ app = Flask(__name__)
 # Allow frontend access from Netlify
 CORS(app, resources={r"/*": {"origins": "https://conjoint-manager-demo.netlify.app"}}, supports_credentials=True)
 
+#
+#
+
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
