@@ -127,19 +127,20 @@ def top_bundles():
     df_subset = bundle_profit_seg_df[bundle_profit_seg_df["Segment"] == selected_segment]
 
     df_highest = df_subset.nlargest(10, 'Profit')
+    df_highest.reset_index(drop=True, inplace=True)
 
     # Top 10 bundles
     bundles = []                  
 
     for i in range(len(df_highest)):
         bundle = {
-            "annual_fee": df_highest.iloc[i, 'AnnualFee'],
-            "cashback_rate": df_highest.iloc[i, 'CashBackRate'],
-            "intro_apr": df_highest.iloc[i, 'IntroAPR'],
-            "digital_feature": df_highest.iloc[i, 'DigitalFeature'],
-            "apr": df_highest.iloc[i, 'APR'],
-            "perk": df_highest.iloc[i, 'Perk'],
-            "profit": df_highest.iloc[i, 'Profit'],
+            "annual_fee": df_highest.loc[i, 'AnnualFee'],
+            "cashback_rate": df_highest.loc[i, 'CashBackRate'],
+            "intro_apr": df_highest.loc[i, 'IntroAPR'],
+            "digital_feature": df_highest.loc[i, 'DigitalFeature'],
+            "apr": df_highest.loc[i, 'APR'],
+            "perk": df_highest.loc[i, 'Perk'],
+            "profit": df_highest.loc[i, 'Profit'],
         }
         bundles.append(bundle)
 
