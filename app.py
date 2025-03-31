@@ -53,6 +53,12 @@ if os.path.exists(DATA_FILE):
         segments = conjoint_df["Segment"].unique().tolist()
 
         bundle_profit_df = pd.read_csv(bundle_profit_file) if bundle_profit_file.endswith('.csv') else pd.read_excel(bundle_profit_file)
+        bundle_profit_df['AnnualFee'] = bundle_profit_df['AnnualFee'].str.strip()
+        bundle_profit_df['CashBackRate'] = bundle_profit_df['CashBackRate'].str.strip()
+        bundle_profit_df['IntroAPR'] = bundle_profit_df['IntroAPR'].str.strip()
+        bundle_profit_df['DigitalFeature'] = bundle_profit_df['DigitalFeature'].str.strip()
+        bundle_profit_df['Perk'] = bundle_profit_df['Perk'].str.strip()
+        bundle_profit_df['APR'] = bundle_profit_df['APR'].str.strip()
 
     except Exception as e:
         print(f"❌ Error loading data file: {e}")
@@ -74,11 +80,11 @@ def optimize_price():
         digital_feature = b["digital_feature"].strip()
         perk = b["perk"].strip()
 
-        df_subset = (bundle_profit_df[bundle_profit_df["AnnualFee"].strip() == annual_fee and 
-                                      bundle_profit_df["CashBackRate"].strip() == cashback_rate and
-                                      bundle_profit_df["IntroAPR"].strip() == intro_apr and
-                                      bundle_profit_df["DigitalFeature"].strip() == digital_feature and
-                                      bundle_profit_df["Perk"].strip() == perk])
+        df_subset = (bundle_profit_df[bundle_profit_df["AnnualFee"] == annual_fee and 
+                                      bundle_profit_df["CashBackRate"] == cashback_rate and
+                                      bundle_profit_df["IntroAPR"] == intro_apr and
+                                      bundle_profit_df["DigitalFeature"] == digital_feature and
+                                      bundle_profit_df["Perk"] == perk])
 
         max_row = df_subset.loc[df_subset['Profit'].idxmax()]
 #        max_value = df_subset['Profit'].max()
