@@ -80,11 +80,11 @@ def optimize_price():
         digital_feature = b["digital_feature"].strip()
         perk = b["perk"].strip()
 
-        df_subset = (bundle_profit_df[bundle_profit_df["AnnualFee"] == annual_fee and 
-                                      bundle_profit_df["CashBackRate"] == cashback_rate and
-                                      bundle_profit_df["IntroAPR"] == intro_apr and
-                                      bundle_profit_df["DigitalFeature"] == digital_feature and
-                                      bundle_profit_df["Perk"] == perk])
+        df_subset = (bundle_profit_df[(bundle_profit_df["AnnualFee"] == annual_fee) &
+                                      (bundle_profit_df["CashBackRate"] == cashback_rate) &
+                                      (bundle_profit_df["IntroAPR"] == intro_apr) &
+                                      (bundle_profit_df["DigitalFeature"] == digital_feature) &
+                                      (bundle_profit_df["Perk"] == perk])
 
         max_row = df_subset.loc[df_subset['Profit'].idxmax()]
 #        max_value = df_subset['Profit'].max()
