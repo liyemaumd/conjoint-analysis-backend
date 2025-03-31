@@ -80,6 +80,7 @@ def optimize_price():
         digital_feature = b["digital_feature"].strip()
         perk = b["perk"].strip()
 
+        print('annual fee ', annual_fee, 'cashback ', cashback_rate, 'intro apr ', intro_apr, 'digital feature ', digital_feature, 'perk ', perk)
         df_subset = (bundle_profit_df[(bundle_profit_df["AnnualFee"] == annual_fee) &
                                       (bundle_profit_df["CashBackRate"] == cashback_rate) &
                                       (bundle_profit_df["IntroAPR"] == intro_apr) &
