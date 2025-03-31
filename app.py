@@ -19,6 +19,7 @@ DATA_FILE = "data/bundling_data.csv"
 
 conjoint_file = "data/credit_card_parameters.csv"
 bundle_profit_file = "data/credit_card_bundle_profits.csv"
+bundle_profit_seg_file = "data/credit_card_bundle_profits_bysegment.csv"
 
 # Load data when the server starts
 grouped_data = None
@@ -59,6 +60,14 @@ if os.path.exists(DATA_FILE):
         bundle_profit_df['DigitalFeature'] = bundle_profit_df['DigitalFeature'].str.strip()
         bundle_profit_df['Perk'] = bundle_profit_df['Perk'].str.strip()
         bundle_profit_df['APR'] = bundle_profit_df['APR'].str.strip()
+
+        bundle_profit_seg_df = pd.read_csv(bundle_profit_seg_file, keep_default_na=False) if bundle_seg_profit_file.endswith('.csv') else pd.read_excel(bundle_profit_seg_file)
+        bundle_profit_seg_df['AnnualFee'] = bundle_profit_seg_df['AnnualFee'].str.strip()
+        bundle_profit_seg_df['CashBackRate'] = bundle_profit_seg_df['CashBackRate'].str.strip()
+        bundle_profit_seg_df['IntroAPR'] = bundle_profit_seg_df['IntroAPR'].str.strip()
+        bundle_profit_seg_df['DigitalFeature'] = bundle_profit_seg_df['DigitalFeature'].str.strip()
+        bundle_profit_seg_df['Perk'] = bundle_profit_seg_df['Perk'].str.strip()
+        bundle_profit_seg_df['APR'] = bundle_profit_seg_df['APR'].str.strip()
 
         print("bundle profit records ", bundle_profit_df.shape)
         print(bundle_profit_df.head())
@@ -107,6 +116,35 @@ def optimize_price():
         chart_results['profit'] = df_subset['Profit'].tolist()
 
     return jsonify({ "results": results, "chart_results": chart_results })
+
+
+@app.route("/top-bundles", methods=["GET"])
+def top_bundles():
+
+    selected_segment = request.args.get("segment", "All")  # Default to "All" if none provided
+    print("selected segment: "+selected_segment)
+    
+    df_subset = bundle_profit_seg_df[bundle_profit_seg_df["Segment"] == selected_segment]
+
+    df_highest = df_subset.nlargest(10, 'Profit')
+
+    # Top 10 bundles
+    bundles = []                  
+
+    for i in range(len(df_highest)):
+        bundle = {
+            "annual_fee": df_highest.iloc[i, 'AnnualFee'],
+            "cashback_rate": df_highest.iloc[i, 'CashBackRate'],
+            "intro_apr": df_highest.iloc[i, 'IntroAPR'],
+            "digital_feature": df_highest.iloc[i, 'DigitalFeature'],
+            "apr": df_highest.iloc[i, 'APR'],
+            "perk": df_highest.iloc[i, 'Perk'],
+            "profit": df_highest.iloc[i, 'Profit'],
+        }
+        bundles.append(bundle)
+
+    return jsonify({ "bundles": bundles })
+
 
 @app.route('/get-analysis', methods=['GET'])
 def get_analysis():
