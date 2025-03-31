@@ -76,6 +76,8 @@ def optimize_price():
     bundles = data.get("bundles", [])
 
     results = []
+
+    chart_results = {}
     for i, b in enumerate(bundles):
         annual_fee = b["annual_fee"].strip()
         cashback_rate = b["cashback_rate"].strip()
@@ -101,8 +103,10 @@ def optimize_price():
             "profit": max_profit
         })
 
-    return jsonify({ "results": results })
+        chart_results['apr'] = df_subset['APR']
+        chart_results['profit'] = df_subset['Profit']
 
+    return jsonify({ "results": results, "chart_results": chart_results })
 
 @app.route('/get-analysis', methods=['GET'])
 def get_analysis():
