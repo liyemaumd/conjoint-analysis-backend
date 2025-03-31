@@ -61,7 +61,7 @@ if os.path.exists(DATA_FILE):
         bundle_profit_df['Perk'] = bundle_profit_df['Perk'].str.strip()
         bundle_profit_df['APR'] = bundle_profit_df['APR'].str.strip()
 
-        bundle_profit_seg_df = pd.read_csv(bundle_profit_seg_file, keep_default_na=False) if bundle_seg_profit_file.endswith('.csv') else pd.read_excel(bundle_profit_seg_file)
+        bundle_profit_seg_df = pd.read_csv(bundle_profit_seg_file, keep_default_na=False) if bundle_profit_seg_file.endswith('.csv') else pd.read_excel(bundle_profit_seg_file)
         bundle_profit_seg_df['AnnualFee'] = bundle_profit_seg_df['AnnualFee'].str.strip()
         bundle_profit_seg_df['CashBackRate'] = bundle_profit_seg_df['CashBackRate'].str.strip()
         bundle_profit_seg_df['IntroAPR'] = bundle_profit_seg_df['IntroAPR'].str.strip()
