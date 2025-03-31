@@ -60,6 +60,9 @@ if os.path.exists(DATA_FILE):
         bundle_profit_df['Perk'] = bundle_profit_df['Perk'].str.strip()
         bundle_profit_df['APR'] = bundle_profit_df['APR'].str.strip()
 
+        print("bundle profit records ", bundle_profit_df.shape)
+        print(bundle_profit_df.head())
+
     except Exception as e:
         print(f"❌ Error loading data file: {e}")
         grouped_data = None
