@@ -103,8 +103,8 @@ def optimize_price():
             "profit": max_profit
         })
 
-        chart_results['apr'] = df_subset['APR']
-        chart_results['profit'] = df_subset['Profit']
+        chart_results['apr'] = df_subset['APR'].tolist()
+        chart_results['profit'] = df_subset['Profit'].tolist()
 
     return jsonify({ "results": results, "chart_results": chart_results })
 
