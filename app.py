@@ -52,7 +52,7 @@ if os.path.exists(DATA_FILE):
         conjoint_df = pd.read_csv(conjoint_file) if conjoint_file.endswith('.csv') else pd.read_excel(conjoint_file)
         segments = conjoint_df["Segment"].unique().tolist()
 
-        bundle_profit_df = pd.read_csv(bundle_profit_file) if bundle_profit_file.endswith('.csv') else pd.read_excel(bundle_profit_file)
+        bundle_profit_df = pd.read_csv(bundle_profit_file, keep_default_na=False) if bundle_profit_file.endswith('.csv') else pd.read_excel(bundle_profit_file)
         bundle_profit_df['AnnualFee'] = bundle_profit_df['AnnualFee'].str.strip()
         bundle_profit_df['CashBackRate'] = bundle_profit_df['CashBackRate'].str.strip()
         bundle_profit_df['IntroAPR'] = bundle_profit_df['IntroAPR'].str.strip()
