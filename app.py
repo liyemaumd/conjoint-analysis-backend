@@ -18,6 +18,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 DATA_FILE = "data/bundling_data.csv"
 
 conjoint_file = "data/credit_card_parameters.csv"
+bundle_profit_file = "data/credit_card_bundle_profits.csv"
 
 # Load data when the server starts
 grouped_data = None
@@ -51,6 +52,8 @@ if os.path.exists(DATA_FILE):
         conjoint_df = pd.read_csv(conjoint_file) if conjoint_file.endswith('.csv') else pd.read_excel(conjoint_file)
         segments = conjoint_df["Segment"].unique().tolist()
 
+        bundle_profit_df = pd.read_csv(bundle_profit_file) if bundle_profit_file.endswith('.csv') else pd.read_excel(bundle_profit_file)
+
     except Exception as e:
         print(f"❌ Error loading data file: {e}")
         grouped_data = None
@@ -65,16 +68,27 @@ def optimize_price():
 
     results = []
     for i, b in enumerate(bundles):
-        cashback = b["cashback_rate"].replace("%", "")
-        try:
-            cb_rate = float(cashback)
-        except:
-            cb_rate = 1.0
-        optimal_apr = f"{15 + int(cb_rate * 2)}%"
-        profit = round(10000 + cb_rate * 2000, 2)
+        annual_fee = b["annual_fee"].strip()
+        cashback_rate = b["cashback_rate"].strip()
+        intro_apr = b["intro_apr"].strip()
+        digital_feature = b["digital_feature"].strip()
+        perk = b["perk"].strip()
+
+        df_subset = (bundle_profit_df[bundle_profit_df["AnnualFee"].strip() == annual_fee and 
+                                      bundle_profit_df["CashBackRate"].strip() == cashback_rate and
+                                      bundle_profit_df["IntroAPR"].strip() == intro_apr and
+                                      bundle_profit_df["DigitalFeature"].strip() == digital_feature and
+                                      bundle_profit_df["Perk"].strip() == perk])
+
+        max_row = df_subset.loc[df_subset['Profit'].idxmax()]
+#        max_value = df_subset['Profit'].max()
+
+        max_apr = max_row['APR']
+        max_profit = max_row['Profit']
+
         results.append({
-            "optimal_apr": optimal_apr,
-            "profit": profit
+            "optimal_apr": max_apr,
+            "profit": max_profit
         })
 
     return jsonify({ "results": results })
@@ -234,4 +248,3 @@ def add_cors_headers(response):
 
 if __name__ == '__main__':
     app.run(debug=True)
-    

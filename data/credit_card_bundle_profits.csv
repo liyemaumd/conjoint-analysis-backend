@@ -1,0 +1,1297 @@
+AnnualFee,CashBackRate,IntroAPR,DigitalFeature,APR,Perk,Profit
+$0 ,1%,None,Basic App,15%,None,400
+$0 ,1%,None,Basic App,15%,Airport Lounge,510.0009925
+$0 ,1%,None,Basic App,15%,Travel Insurance,514.1369251
+$0 ,1%,None,Basic App,20%,None,364.1124062
+$0 ,1%,None,Basic App,20%,Airport Lounge,586.0897443
+$0 ,1%,None,Basic App,20%,Travel Insurance,587.0679579
+$0 ,1%,None,Basic App,25%,None,252.7499239
+$0 ,1%,None,Basic App,25%,Airport Lounge,472.605401
+$0 ,1%,None,Basic App,25%,Travel Insurance,469.2740933
+$0 ,1%,None,Basic App,30%,None,125.4929815
+$0 ,1%,None,Basic App,30%,Airport Lounge,238.8998807
+$0 ,1%,None,Basic App,30%,Travel Insurance,238.1174773
+$0 ,1%,None,Spend Insights,15%,None,529.8884391
+$0 ,1%,None,Spend Insights,15%,Airport Lounge,567.5256098
+$0 ,1%,None,Spend Insights,15%,Travel Insurance,572.7968323
+$0 ,1%,None,Spend Insights,20%,None,547.0462177
+$0 ,1%,None,Spend Insights,20%,Airport Lounge,721.0432117
+$0 ,1%,None,Spend Insights,20%,Travel Insurance,727.4772094
+$0 ,1%,None,Spend Insights,25%,None,404.6776092
+$0 ,1%,None,Spend Insights,25%,Airport Lounge,676.7290265
+$0 ,1%,None,Spend Insights,25%,Travel Insurance,677.0844679
+$0 ,1%,None,Spend Insights,30%,None,201.142633
+$0 ,1%,None,Spend Insights,30%,Airport Lounge,399.8396323
+$0 ,1%,None,Spend Insights,30%,Travel Insurance,397.7873601
+$0 ,1%,None,Budget Coaching,15%,None,545.4228255
+$0 ,1%,None,Budget Coaching,15%,Airport Lounge,572.4437068
+$0 ,1%,None,Budget Coaching,15%,Travel Insurance,576.440739
+$0 ,1%,None,Budget Coaching,20%,None,578.4459284
+$0 ,1%,None,Budget Coaching,20%,Airport Lounge,739.0415533
+$0 ,1%,None,Budget Coaching,20%,Travel Insurance,745.4975532
+$0 ,1%,None,Budget Coaching,25%,None,440.5426282
+$0 ,1%,None,Budget Coaching,25%,Airport Lounge,707.8188696
+$0 ,1%,None,Budget Coaching,25%,Travel Insurance,710.1752274
+$0 ,1%,None,Budget Coaching,30%,None,227.6158632
+$0 ,1%,None,Budget Coaching,30%,Airport Lounge,433.6602533
+$0 ,1%,None,Budget Coaching,30%,Travel Insurance,435.1942842
+$0 ,1%,0% for 12 months,Basic App,15%,None,229.6950457
+$0 ,1%,0% for 12 months,Basic App,15%,Airport Lounge,172.8259657
+$0 ,1%,0% for 12 months,Basic App,15%,Travel Insurance,173.9878333
+$0 ,1%,0% for 12 months,Basic App,20%,None,380.7226223
+$0 ,1%,0% for 12 months,Basic App,20%,Airport Lounge,399.9886806
+$0 ,1%,0% for 12 months,Basic App,20%,Travel Insurance,404.3106692
+$0 ,1%,0% for 12 months,Basic App,25%,None,352.5569021
+$0 ,1%,0% for 12 months,Basic App,25%,Airport Lounge,477.5546777
+$0 ,1%,0% for 12 months,Basic App,25%,Travel Insurance,481.4472093
+$0 ,1%,0% for 12 months,Basic App,30%,None,192.6611909
+$0 ,1%,0% for 12 months,Basic App,30%,Airport Lounge,351.428292
+$0 ,1%,0% for 12 months,Basic App,30%,Travel Insurance,352.3659605
+$0 ,1%,0% for 12 months,Spend Insights,15%,None,245.407904
+$0 ,1%,0% for 12 months,Spend Insights,15%,Airport Lounge,171.7509005
+$0 ,1%,0% for 12 months,Spend Insights,15%,Travel Insurance,172.2411646
+$0 ,1%,0% for 12 months,Spend Insights,20%,None,452.4666519
+$0 ,1%,0% for 12 months,Spend Insights,20%,Airport Lounge,422.8451723
+$0 ,1%,0% for 12 months,Spend Insights,20%,Travel Insurance,426.3474797
+$0 ,1%,0% for 12 months,Spend Insights,25%,None,487.1479225
+$0 ,1%,0% for 12 months,Spend Insights,25%,Airport Lounge,543.804917
+$0 ,1%,0% for 12 months,Spend Insights,25%,Travel Insurance,549.0872885
+$0 ,1%,0% for 12 months,Spend Insights,30%,None,316.7204688
+$0 ,1%,0% for 12 months,Spend Insights,30%,Airport Lounge,480.404132
+$0 ,1%,0% for 12 months,Spend Insights,30%,Travel Insurance,484.3854082
+$0 ,1%,0% for 12 months,Budget Coaching,15%,None,240.9471434
+$0 ,1%,0% for 12 months,Budget Coaching,15%,Airport Lounge,164.3490692
+$0 ,1%,0% for 12 months,Budget Coaching,15%,Travel Insurance,164.5753047
+$0 ,1%,0% for 12 months,Budget Coaching,20%,None,457.9080002
+$0 ,1%,0% for 12 months,Budget Coaching,20%,Airport Lounge,421.3408484
+$0 ,1%,0% for 12 months,Budget Coaching,20%,Travel Insurance,424.0812622
+$0 ,1%,0% for 12 months,Budget Coaching,25%,None,505.3042558
+$0 ,1%,0% for 12 months,Budget Coaching,25%,Airport Lounge,550.3931576
+$0 ,1%,0% for 12 months,Budget Coaching,25%,Travel Insurance,555.0261589
+$0 ,1%,0% for 12 months,Budget Coaching,30%,None,343.2841525
+$0 ,1%,0% for 12 months,Budget Coaching,30%,Airport Lounge,499.0488326
+$0 ,1%,0% for 12 months,Budget Coaching,30%,Travel Insurance,503.6206872
+$0 ,1%,0% for 18 months,Basic App,15%,None,41.68065203
+$0 ,1%,0% for 18 months,Basic App,15%,Airport Lounge,-45.07940163
+$0 ,1%,0% for 18 months,Basic App,15%,Travel Insurance,-45.24301598
+$0 ,1%,0% for 18 months,Basic App,20%,None,257.7783526
+$0 ,1%,0% for 18 months,Basic App,20%,Airport Lounge,213.6026086
+$0 ,1%,0% for 18 months,Basic App,20%,Travel Insurance,215.4349645
+$0 ,1%,0% for 18 months,Basic App,25%,None,311.3939977
+$0 ,1%,0% for 18 months,Basic App,25%,Airport Lounge,345.7093837
+$0 ,1%,0% for 18 months,Basic App,25%,Travel Insurance,348.6794543
+$0 ,1%,0% for 18 months,Basic App,30%,None,200.6766666
+$0 ,1%,0% for 18 months,Basic App,30%,Airport Lounge,308.9251667
+$0 ,1%,0% for 18 months,Basic App,30%,Travel Insurance,310.5833483
+$0 ,1%,0% for 18 months,Spend Insights,15%,None,35.52859336
+$0 ,1%,0% for 18 months,Spend Insights,15%,Airport Lounge,-55.75370158
+$0 ,1%,0% for 18 months,Spend Insights,15%,Travel Insurance,-55.7628969
+$0 ,1%,0% for 18 months,Spend Insights,20%,None,283.1936651
+$0 ,1%,0% for 18 months,Spend Insights,20%,Airport Lounge,215.6960635
+$0 ,1%,0% for 18 months,Spend Insights,20%,Travel Insurance,216.7615642
+$0 ,1%,0% for 18 months,Spend Insights,25%,None,389.4950283
+$0 ,1%,0% for 18 months,Spend Insights,25%,Airport Lounge,372.137776
+$0 ,1%,0% for 18 months,Spend Insights,25%,Travel Insurance,374.8717736
+$0 ,1%,0% for 18 months,Spend Insights,30%,None,306.3603527
+$0 ,1%,0% for 18 months,Spend Insights,30%,Airport Lounge,381.6388701
+$0 ,1%,0% for 18 months,Spend Insights,30%,Travel Insurance,385.3513323
+$0 ,1%,0% for 18 months,Budget Coaching,15%,None,26.93430683
+$0 ,1%,0% for 18 months,Budget Coaching,15%,Airport Lounge,-65.44140522
+$0 ,1%,0% for 18 months,Budget Coaching,15%,Travel Insurance,-65.38043372
+$0 ,1%,0% for 18 months,Budget Coaching,20%,None,280.3090087
+$0 ,1%,0% for 18 months,Budget Coaching,20%,Airport Lounge,209.101911
+$0 ,1%,0% for 18 months,Budget Coaching,20%,Travel Insurance,209.812465
+$0 ,1%,0% for 18 months,Budget Coaching,25%,None,395.6223201
+$0 ,1%,0% for 18 months,Budget Coaching,25%,Airport Lounge,370.6167168
+$0 ,1%,0% for 18 months,Budget Coaching,25%,Travel Insurance,372.6891593
+$0 ,1%,0% for 18 months,Budget Coaching,30%,None,323.5480453
+$0 ,1%,0% for 18 months,Budget Coaching,30%,Airport Lounge,389.0474932
+$0 ,1%,0% for 18 months,Budget Coaching,30%,Travel Insurance,392.5207935
+$0 ,2%,None,Basic App,15%,None,500.7273222
+$0 ,2%,None,Basic App,15%,Airport Lounge,445.9099033
+$0 ,2%,None,Basic App,15%,Travel Insurance,450.148609
+$0 ,2%,None,Basic App,20%,None,670.4465246
+$0 ,2%,None,Basic App,20%,Airport Lounge,674.6925834
+$0 ,2%,None,Basic App,20%,Travel Insurance,684.1643738
+$0 ,2%,None,Basic App,25%,None,646.8414884
+$0 ,2%,None,Basic App,25%,Airport Lounge,764.4861963
+$0 ,2%,None,Basic App,25%,Travel Insurance,774.3472489
+$0 ,2%,None,Basic App,30%,None,391.9444942
+$0 ,2%,None,Basic App,30%,Airport Lounge,640.1132231
+$0 ,2%,None,Basic App,30%,Travel Insurance,641.3983356
+$0 ,2%,None,Spend Insights,15%,None,523.7691595
+$0 ,2%,None,Spend Insights,15%,Airport Lounge,452.4487321
+$0 ,2%,None,Spend Insights,15%,Travel Insurance,454.7163527
+$0 ,2%,None,Spend Insights,20%,None,741.3761397
+$0 ,2%,None,Spend Insights,20%,Airport Lounge,702.1317527
+$0 ,2%,None,Spend Insights,20%,Travel Insurance,709.3559315
+$0 ,2%,None,Spend Insights,25%,None,796.386698
+$0 ,2%,None,Spend Insights,25%,Airport Lounge,827.049035
+$0 ,2%,None,Spend Insights,25%,Travel Insurance,837.712
+$0 ,2%,None,Spend Insights,30%,None,596.4648993
+$0 ,2%,None,Spend Insights,30%,Airport Lounge,773.3440731
+$0 ,2%,None,Spend Insights,30%,Travel Insurance,782.3997255
+$0 ,2%,None,Budget Coaching,15%,None,522.0138346
+$0 ,2%,None,Budget Coaching,15%,Airport Lounge,447.4597572
+$0 ,2%,None,Budget Coaching,15%,Travel Insurance,448.594071
+$0 ,2%,None,Budget Coaching,20%,None,749.4423754
+$0 ,2%,None,Budget Coaching,20%,Airport Lounge,703.7778358
+$0 ,2%,None,Budget Coaching,20%,Travel Insurance,709.2807193
+$0 ,2%,None,Budget Coaching,25%,None,817.1629226
+$0 ,2%,None,Budget Coaching,25%,Airport Lounge,836.7643386
+$0 ,2%,None,Budget Coaching,25%,Travel Insurance,845.9120471
+$0 ,2%,None,Budget Coaching,30%,None,631.3488528
+$0 ,2%,None,Budget Coaching,30%,Airport Lounge,794.2753105
+$0 ,2%,None,Budget Coaching,30%,Travel Insurance,804.5735056
+$0 ,2%,0% for 12 months,Basic App,15%,None,90.75393011
+$0 ,2%,0% for 12 months,Basic App,15%,Airport Lounge,0
+$0 ,2%,0% for 12 months,Basic App,15%,Travel Insurance,0
+$0 ,2%,0% for 12 months,Basic App,20%,None,348.3223637
+$0 ,2%,0% for 12 months,Basic App,20%,Airport Lounge,272.6655412
+$0 ,2%,0% for 12 months,Basic App,20%,Travel Insurance,274.4189802
+$0 ,2%,0% for 12 months,Basic App,25%,None,479.901598
+$0 ,2%,0% for 12 months,Basic App,25%,Airport Lounge,433.6305916
+$0 ,2%,0% for 12 months,Basic App,25%,Travel Insurance,438.0063559
+$0 ,2%,0% for 12 months,Basic App,30%,None,439.3587202
+$0 ,2%,0% for 12 months,Basic App,30%,Airport Lounge,464.2674065
+$0 ,2%,0% for 12 months,Basic App,30%,Travel Insurance,471.3637629
+$0 ,2%,0% for 12 months,Spend Insights,15%,None,83.73317572
+$0 ,2%,0% for 12 months,Spend Insights,15%,Airport Lounge,-9.507713131
+$0 ,2%,0% for 12 months,Spend Insights,15%,Travel Insurance,-9.490559425
+$0 ,2%,0% for 12 months,Spend Insights,20%,None,353.4112567
+$0 ,2%,0% for 12 months,Spend Insights,20%,Airport Lounge,270.3306319
+$0 ,2%,0% for 12 months,Spend Insights,20%,Travel Insurance,270.9366317
+$0 ,2%,0% for 12 months,Spend Insights,25%,None,507.7455359
+$0 ,2%,0% for 12 months,Spend Insights,25%,Airport Lounge,442.4611278
+$0 ,2%,0% for 12 months,Spend Insights,25%,Travel Insurance,444.8239446
+$0 ,2%,0% for 12 months,Spend Insights,30%,None,515.9814475
+$0 ,2%,0% for 12 months,Spend Insights,30%,Airport Lounge,492.4046165
+$0 ,2%,0% for 12 months,Spend Insights,30%,Travel Insurance,498.5163059
+$0 ,2%,0% for 12 months,Budget Coaching,15%,None,74.80793153
+$0 ,2%,0% for 12 months,Budget Coaching,15%,Airport Lounge,-19.06407142
+$0 ,2%,0% for 12 months,Budget Coaching,15%,Travel Insurance,-19.01724866
+$0 ,2%,0% for 12 months,Budget Coaching,20%,None,347.7474726
+$0 ,2%,0% for 12 months,Budget Coaching,20%,Airport Lounge,262.6366349
+$0 ,2%,0% for 12 months,Budget Coaching,20%,Travel Insurance,262.9407634
+$0 ,2%,0% for 12 months,Budget Coaching,25%,None,507.3263421
+$0 ,2%,0% for 12 months,Budget Coaching,25%,Airport Lounge,438.1166953
+$0 ,2%,0% for 12 months,Budget Coaching,25%,Travel Insurance,439.7354661
+$0 ,2%,0% for 12 months,Budget Coaching,30%,None,525.252661
+$0 ,2%,0% for 12 months,Budget Coaching,30%,Airport Lounge,494.5338088
+$0 ,2%,0% for 12 months,Budget Coaching,30%,Travel Insurance,499.7512176
+$0 ,2%,0% for 18 months,Basic App,15%,None,-139.690777
+$0 ,2%,0% for 18 months,Basic App,15%,Airport Lounge,-237.8944065
+$0 ,2%,0% for 18 months,Basic App,15%,Travel Insurance,-237.6251354
+$0 ,2%,0% for 18 months,Basic App,20%,None,135.6430122
+$0 ,2%,0% for 18 months,Basic App,20%,Airport Lounge,46.58769534
+$0 ,2%,0% for 18 months,Basic App,20%,Travel Insurance,46.7265616
+$0 ,2%,0% for 18 months,Basic App,25%,None,299.0255916
+$0 ,2%,0% for 18 months,Basic App,25%,Airport Lounge,225.5171864
+$0 ,2%,0% for 18 months,Basic App,25%,Travel Insurance,226.9295931
+$0 ,2%,0% for 18 months,Basic App,30%,None,325.5195362
+$0 ,2%,0% for 18 months,Basic App,30%,Airport Lounge,290.0196011
+$0 ,2%,0% for 18 months,Basic App,30%,Travel Insurance,293.728035
+$0 ,2%,0% for 18 months,Spend Insights,15%,None,-151.4658482
+$0 ,2%,0% for 18 months,Spend Insights,15%,Airport Lounge,-250.2424084
+$0 ,2%,0% for 18 months,Spend Insights,15%,Travel Insurance,-249.4285086
+$0 ,2%,0% for 18 months,Spend Insights,20%,None,129.9696209
+$0 ,2%,0% for 18 months,Spend Insights,20%,Airport Lounge,37.92465424
+$0 ,2%,0% for 18 months,Spend Insights,20%,Travel Insurance,37.90993858
+$0 ,2%,0% for 18 months,Spend Insights,25%,None,304.9041859
+$0 ,2%,0% for 18 months,Spend Insights,25%,Airport Lounge,222.7085408
+$0 ,2%,0% for 18 months,Spend Insights,25%,Travel Insurance,223.1724037
+$0 ,2%,0% for 18 months,Spend Insights,30%,None,357.3127081
+$0 ,2%,0% for 18 months,Spend Insights,30%,Airport Lounge,297.263198
+$0 ,2%,0% for 18 months,Spend Insights,30%,Travel Insurance,299.7916484
+$0 ,2%,0% for 18 months,Budget Coaching,15%,None,-161.3324583
+$0 ,2%,0% for 18 months,Budget Coaching,15%,Airport Lounge,-260.0392625
+$0 ,2%,0% for 18 months,Budget Coaching,15%,Travel Insurance,-259.0795529
+$0 ,2%,0% for 18 months,Budget Coaching,20%,None,121.4069664
+$0 ,2%,0% for 18 months,Budget Coaching,20%,Airport Lounge,28.53656261
+$0 ,2%,0% for 18 months,Budget Coaching,20%,Travel Insurance,28.5064434
+$0 ,2%,0% for 18 months,Budget Coaching,25%,None,299.1333883
+$0 ,2%,0% for 18 months,Budget Coaching,25%,Airport Lounge,214.872401
+$0 ,2%,0% for 18 months,Budget Coaching,25%,Travel Insurance,215.0529348
+$0 ,2%,0% for 18 months,Budget Coaching,30%,None,357.4856348
+$0 ,2%,0% for 18 months,Budget Coaching,30%,Airport Lounge,293.0453603
+$0 ,2%,0% for 18 months,Budget Coaching,30%,Travel Insurance,295.0226742
+$0 ,3%,None,Basic App,15%,None,360.2884023
+$0 ,3%,None,Basic App,15%,Airport Lounge,278.3273219
+$0 ,3%,None,Basic App,15%,Travel Insurance,280.9008628
+$0 ,3%,None,Basic App,20%,None,593.6157777
+$0 ,3%,None,Basic App,20%,Airport Lounge,535.6912641
+$0 ,3%,None,Basic App,20%,Travel Insurance,543.3238067
+$0 ,3%,None,Basic App,25%,None,680.3961872
+$0 ,3%,None,Basic App,25%,Airport Lounge,675.3569737
+$0 ,3%,None,Basic App,25%,Travel Insurance,686.7142148
+$0 ,3%,None,Basic App,30%,None,541.8561387
+$0 ,3%,None,Basic App,30%,Airport Lounge,660.077805
+$0 ,3%,None,Basic App,30%,Travel Insurance,668.3136578
+$0 ,3%,None,Spend Insights,15%,None,363.3803893
+$0 ,3%,None,Spend Insights,15%,Airport Lounge,275.4081241
+$0 ,3%,None,Spend Insights,15%,Travel Insurance,276.7363715
+$0 ,3%,None,Spend Insights,20%,None,619.0902667
+$0 ,3%,None,Spend Insights,20%,Airport Lounge,545.1985461
+$0 ,3%,None,Spend Insights,20%,Travel Insurance,550.2657354
+$0 ,3%,None,Spend Insights,25%,None,747.6540781
+$0 ,3%,None,Spend Insights,25%,Airport Lounge,702.5069681
+$0 ,3%,None,Spend Insights,25%,Travel Insurance,711.9863758
+$0 ,3%,None,Spend Insights,30%,None,686.1397903
+$0 ,3%,None,Spend Insights,30%,Airport Lounge,720.2942822
+$0 ,3%,None,Spend Insights,30%,Travel Insurance,731.7562297
+$0 ,3%,None,Budget Coaching,15%,None,357.2214155
+$0 ,3%,None,Budget Coaching,15%,Airport Lounge,267.7249694
+$0 ,3%,None,Budget Coaching,15%,Travel Insurance,268.2527815
+$0 ,3%,None,Budget Coaching,20%,None,618.9024215
+$0 ,3%,None,Budget Coaching,20%,Airport Lounge,541.8455013
+$0 ,3%,None,Budget Coaching,20%,Travel Insurance,545.1366725
+$0 ,3%,None,Budget Coaching,25%,None,755.7974267
+$0 ,3%,None,Budget Coaching,25%,Airport Lounge,704.9383525
+$0 ,3%,None,Budget Coaching,25%,Travel Insurance,712.0956738
+$0 ,3%,None,Budget Coaching,30%,None,706.816296
+$0 ,3%,None,Budget Coaching,30%,Airport Lounge,730.1820622
+$0 ,3%,None,Budget Coaching,30%,Travel Insurance,741.1606191
+$0 ,3%,0% for 12 months,Basic App,15%,None,-94.28205876
+$0 ,3%,0% for 12 months,Basic App,15%,Airport Lounge,-191.5223424
+$0 ,3%,0% for 12 months,Basic App,15%,Travel Insurance,-191.5959275
+$0 ,3%,0% for 12 months,Basic App,20%,None,183.5825131
+$0 ,3%,0% for 12 months,Basic App,20%,Airport Lounge,93.79218317
+$0 ,3%,0% for 12 months,Basic App,20%,Travel Insurance,94.20474386
+$0 ,3%,0% for 12 months,Basic App,25%,None,350.5943989
+$0 ,3%,0% for 12 months,Basic App,25%,Airport Lounge,273.1627741
+$0 ,3%,0% for 12 months,Basic App,25%,Travel Insurance,275.4170605
+$0 ,3%,0% for 12 months,Basic App,30%,None,386.0883186
+$0 ,3%,0% for 12 months,Basic App,30%,Airport Lounge,338.8453817
+$0 ,3%,0% for 12 months,Basic App,30%,Travel Insurance,343.7915476
+$0 ,3%,0% for 12 months,Spend Insights,15%,None,-105.2740968
+$0 ,3%,0% for 12 months,Spend Insights,15%,Airport Lounge,-203.3797099
+$0 ,3%,0% for 12 months,Spend Insights,15%,Travel Insurance,-202.9770358
+$0 ,3%,0% for 12 months,Spend Insights,20%,None,178.5281081
+$0 ,3%,0% for 12 months,Spend Insights,20%,Airport Lounge,85.88179207
+$0 ,3%,0% for 12 months,Spend Insights,20%,Travel Insurance,85.94302025
+$0 ,3%,0% for 12 months,Spend Insights,25%,None,355.8332146
+$0 ,3%,0% for 12 months,Spend Insights,25%,Airport Lounge,271.2646963
+$0 ,3%,0% for 12 months,Spend Insights,25%,Travel Insurance,272.273993
+$0 ,3%,0% for 12 months,Spend Insights,30%,None,412.3863167
+$0 ,3%,0% for 12 months,Spend Insights,30%,Airport Lounge,346.0860759
+$0 ,3%,0% for 12 months,Spend Insights,30%,Travel Insurance,349.5686358
+$0 ,3%,0% for 12 months,Budget Coaching,15%,None,-115.079745
+$0 ,3%,0% for 12 months,Budget Coaching,15%,Airport Lounge,-213.2572113
+$0 ,3%,0% for 12 months,Budget Coaching,15%,Travel Insurance,-212.5870004
+$0 ,3%,0% for 12 months,Budget Coaching,20%,None,170.0065402
+$0 ,3%,0% for 12 months,Budget Coaching,20%,Airport Lounge,76.58826758
+$0 ,3%,0% for 12 months,Budget Coaching,20%,Travel Insurance,76.5407355
+$0 ,3%,0% for 12 months,Budget Coaching,25%,None,350.0406908
+$0 ,3%,0% for 12 months,Budget Coaching,25%,Airport Lounge,263.6614504
+$0 ,3%,0% for 12 months,Budget Coaching,25%,Travel Insurance,264.1267757
+$0 ,3%,0% for 12 months,Budget Coaching,30%,None,412.337761
+$0 ,3%,0% for 12 months,Budget Coaching,30%,Airport Lounge,342.1004653
+$0 ,3%,0% for 12 months,Budget Coaching,30%,Travel Insurance,344.8613983
+$0 ,3%,0% for 18 months,Basic App,15%,None,-335.1660044
+$0 ,3%,0% for 18 months,Basic App,15%,Airport Lounge,-435.9522693
+$0 ,3%,0% for 18 months,Basic App,15%,Travel Insurance,-435.3626971
+$0 ,3%,0% for 18 months,Basic App,20%,None,-46.94626603
+$0 ,3%,0% for 18 months,Basic App,20%,Airport Lounge,-143.0781938
+$0 ,3%,0% for 18 months,Basic App,20%,Travel Insurance,-143.2771354
+$0 ,3%,0% for 18 months,Basic App,25%,None,136.5621527
+$0 ,3%,0% for 18 months,Basic App,25%,Airport Lounge,46.73221719
+$0 ,3%,0% for 18 months,Basic App,25%,Travel Insurance,46.95190669
+$0 ,3%,0% for 18 months,Basic App,30%,None,208.0535954
+$0 ,3%,0% for 18 months,Basic App,30%,Airport Lounge,132.6771458
+$0 ,3%,0% for 18 months,Basic App,30%,Travel Insurance,134.1322545
+$0 ,3%,0% for 18 months,Spend Insights,15%,None,-348.1846924
+$0 ,3%,0% for 18 months,Spend Insights,15%,Airport Lounge,-449.03211
+$0 ,3%,0% for 18 months,Spend Insights,15%,Travel Insurance,-447.674413
+$0 ,3%,0% for 18 months,Spend Insights,20%,None,-57.2319831
+$0 ,3%,0% for 18 months,Spend Insights,20%,Airport Lounge,-154.4504309
+$0 ,3%,0% for 18 months,Spend Insights,20%,Travel Insurance,-154.2361799
+$0 ,3%,0% for 18 months,Spend Insights,25%,None,130.9390383
+$0 ,3%,0% for 18 months,Spend Insights,25%,Airport Lounge,38.09573263
+$0 ,3%,0% for 18 months,Spend Insights,25%,Travel Insurance,38.13151403
+$0 ,3%,0% for 18 months,Spend Insights,30%,None,211.5471009
+$0 ,3%,0% for 18 months,Spend Insights,30%,Airport Lounge,128.08943
+$0 ,3%,0% for 18 months,Spend Insights,30%,Travel Insurance,128.8643908
+$0 ,3%,0% for 18 months,Budget Coaching,15%,None,-357.9936219
+$0 ,3%,0% for 18 months,Budget Coaching,15%,Airport Lounge,-458.6594584
+$0 ,3%,0% for 18 months,Budget Coaching,15%,Travel Insurance,-456.8031288
+$0 ,3%,0% for 18 months,Budget Coaching,20%,None,-66.93624527
+$0 ,3%,0% for 18 months,Budget Coaching,20%,Airport Lounge,-164.3015872
+$0 ,3%,0% for 18 months,Budget Coaching,20%,Travel Insurance,-163.9001008
+$0 ,3%,0% for 18 months,Budget Coaching,25%,None,122.2897901
+$0 ,3%,0% for 18 months,Budget Coaching,25%,Airport Lounge,28.67947796
+$0 ,3%,0% for 18 months,Budget Coaching,25%,Travel Insurance,28.66071833
+$0 ,3%,0% for 18 months,Budget Coaching,30%,None,205.6638803
+$0 ,3%,0% for 18 months,Budget Coaching,30%,Airport Lounge,120.1125367
+$0 ,3%,0% for 18 months,Budget Coaching,30%,Travel Insurance,120.6306275
+$95 ,1%,None,Basic App,15%,None,281.0620502
+$95 ,1%,None,Basic App,15%,Airport Lounge,446.0856908
+$95 ,1%,None,Basic App,15%,Travel Insurance,436.3166945
+$95 ,1%,None,Basic App,20%,None,228.1238163
+$95 ,1%,None,Basic App,20%,Airport Lounge,463.5280684
+$95 ,1%,None,Basic App,20%,Travel Insurance,442.6346331
+$95 ,1%,None,Basic App,25%,None,143.159519
+$95 ,1%,None,Basic App,25%,Airport Lounge,333.9017311
+$95 ,1%,None,Basic App,25%,Travel Insurance,309.759709
+$95 ,1%,None,Basic App,30%,None,62.97626367
+$95 ,1%,None,Basic App,30%,Airport Lounge,151.1481043
+$95 ,1%,None,Basic App,30%,Travel Insurance,135.6093759
+$95 ,1%,None,Spend Insights,15%,None,418.1214169
+$95 ,1%,None,Spend Insights,15%,Airport Lounge,518.0211056
+$95 ,1%,None,Spend Insights,15%,Travel Insurance,516.2744986
+$95 ,1%,None,Spend Insights,20%,None,377.6631043
+$95 ,1%,None,Spend Insights,20%,Airport Lounge,612.1581026
+$95 ,1%,None,Spend Insights,20%,Travel Insurance,599.233139
+$95 ,1%,None,Spend Insights,25%,None,242.4600652
+$95 ,1%,None,Spend Insights,25%,Airport Lounge,520.083321
+$95 ,1%,None,Spend Insights,25%,Travel Insurance,495.0775568
+$95 ,1%,None,Spend Insights,30%,None,102.5445481
+$95 ,1%,None,Spend Insights,30%,Airport Lounge,264.785738
+$95 ,1%,None,Spend Insights,30%,Travel Insurance,243.3203187
+$95 ,1%,None,Budget Coaching,15%,None,433.2673273
+$95 ,1%,None,Budget Coaching,15%,Airport Lounge,522.3128502
+$95 ,1%,None,Budget Coaching,15%,Travel Insurance,524.1814124
+$95 ,1%,None,Budget Coaching,20%,None,398.6315697
+$95 ,1%,None,Budget Coaching,20%,Airport Lounge,623.5511378
+$95 ,1%,None,Budget Coaching,20%,Travel Insurance,615.500804
+$95 ,1%,None,Budget Coaching,25%,None,260.4491948
+$95 ,1%,None,Budget Coaching,25%,Airport Lounge,539.0148855
+$95 ,1%,None,Budget Coaching,25%,Travel Insurance,518.4043283
+$95 ,1%,None,Budget Coaching,30%,None,112.9321423
+$95 ,1%,None,Budget Coaching,30%,Airport Lounge,282.8599326
+$95 ,1%,None,Budget Coaching,30%,Travel Insurance,263.3595963
+$95 ,1%,0% for 12 months,Basic App,15%,None,227.876303
+$95 ,1%,0% for 12 months,Basic App,15%,Airport Lounge,207.6958412
+$95 ,1%,0% for 12 months,Basic App,15%,Travel Insurance,209.6302602
+$95 ,1%,0% for 12 months,Basic App,20%,None,303.9584239
+$95 ,1%,0% for 12 months,Basic App,20%,Airport Lounge,379.0960876
+$95 ,1%,0% for 12 months,Basic App,20%,Travel Insurance,377.8379025
+$95 ,1%,0% for 12 months,Basic App,25%,None,236.2620501
+$95 ,1%,0% for 12 months,Basic App,25%,Airport Lounge,407.9576628
+$95 ,1%,0% for 12 months,Basic App,25%,Travel Insurance,398.1146325
+$95 ,1%,0% for 12 months,Basic App,30%,None,104.5053912
+$95 ,1%,0% for 12 months,Basic App,30%,Airport Lounge,257.6143926
+$95 ,1%,0% for 12 months,Basic App,30%,Travel Insurance,243.0693711
+$95 ,1%,0% for 12 months,Spend Insights,15%,None,261.2242402
+$95 ,1%,0% for 12 months,Spend Insights,15%,Airport Lounge,214.8001457
+$95 ,1%,0% for 12 months,Spend Insights,15%,Travel Insurance,218.5873912
+$95 ,1%,0% for 12 months,Spend Insights,20%,None,397.5191949
+$95 ,1%,0% for 12 months,Spend Insights,20%,Airport Lounge,412.1905041
+$95 ,1%,0% for 12 months,Spend Insights,20%,Travel Insurance,416.2729687
+$95 ,1%,0% for 12 months,Spend Insights,25%,None,370.5172258
+$95 ,1%,0% for 12 months,Spend Insights,25%,Airport Lounge,489.5143282
+$95 ,1%,0% for 12 months,Spend Insights,25%,Travel Insurance,487.2203194
+$95 ,1%,0% for 12 months,Spend Insights,30%,None,194.2102571
+$95 ,1%,0% for 12 months,Spend Insights,30%,Airport Lounge,389.6396909
+$95 ,1%,0% for 12 months,Spend Insights,30%,Travel Insurance,377.1850885
+$95 ,1%,0% for 12 months,Budget Coaching,15%,None,262.5576429
+$95 ,1%,0% for 12 months,Budget Coaching,15%,Airport Lounge,211.8605126
+$95 ,1%,0% for 12 months,Budget Coaching,15%,Travel Insurance,216.4297747
+$95 ,1%,0% for 12 months,Budget Coaching,20%,None,407.1831833
+$95 ,1%,0% for 12 months,Budget Coaching,20%,Airport Lounge,413.9285825
+$95 ,1%,0% for 12 months,Budget Coaching,20%,Travel Insurance,420.5475
+$95 ,1%,0% for 12 months,Budget Coaching,25%,None,387.6394639
+$95 ,1%,0% for 12 months,Budget Coaching,25%,Airport Lounge,495.5296959
+$95 ,1%,0% for 12 months,Budget Coaching,25%,Travel Insurance,497.0481769
+$95 ,1%,0% for 12 months,Budget Coaching,30%,None,210.7216847
+$95 ,1%,0% for 12 months,Budget Coaching,30%,Airport Lounge,403.2458598
+$95 ,1%,0% for 12 months,Budget Coaching,30%,Travel Insurance,393.9634702
+$95 ,1%,0% for 18 months,Basic App,15%,None,95.39826924
+$95 ,1%,0% for 18 months,Basic App,15%,Airport Lounge,33.67209358
+$95 ,1%,0% for 18 months,Basic App,15%,Travel Insurance,34.22709422
+$95 ,1%,0% for 18 months,Basic App,20%,None,240.7706957
+$95 ,1%,0% for 18 months,Basic App,20%,Airport Lounge,238.8855934
+$95 ,1%,0% for 18 months,Basic App,20%,Travel Insurance,240.6725932
+$95 ,1%,0% for 18 months,Basic App,25%,None,236.6205834
+$95 ,1%,0% for 18 months,Basic App,25%,Airport Lounge,325.4707067
+$95 ,1%,0% for 18 months,Basic App,25%,Travel Insurance,322.3179008
+$95 ,1%,0% for 18 months,Basic App,30%,None,121.6865385
+$95 ,1%,0% for 18 months,Basic App,30%,Airport Lounge,251.9310324
+$95 ,1%,0% for 18 months,Basic App,30%,Travel Insurance,241.8960923
+$95 ,1%,0% for 18 months,Spend Insights,15%,None,99.61316022
+$95 ,1%,0% for 18 months,Spend Insights,15%,Airport Lounge,27.74384677
+$95 ,1%,0% for 18 months,Spend Insights,15%,Travel Insurance,28.33218828
+$95 ,1%,0% for 18 months,Spend Insights,20%,None,286.4876075
+$95 ,1%,0% for 18 months,Spend Insights,20%,Airport Lounge,249.8621296
+$95 ,1%,0% for 18 months,Spend Insights,20%,Travel Insurance,254.1767436
+$95 ,1%,0% for 18 months,Spend Insights,25%,None,332.7995927
+$95 ,1%,0% for 18 months,Spend Insights,25%,Airport Lounge,364.9881295
+$95 ,1%,0% for 18 months,Spend Insights,25%,Travel Insurance,367.204026
+$95 ,1%,0% for 18 months,Spend Insights,30%,None,213.1332465
+$95 ,1%,0% for 18 months,Spend Insights,30%,Airport Lounge,339.428199
+$95 ,1%,0% for 18 months,Spend Insights,30%,Travel Insurance,334.0758628
+$95 ,1%,0% for 18 months,Budget Coaching,15%,None,94.90293136
+$95 ,1%,0% for 18 months,Budget Coaching,15%,Airport Lounge,20.25764014
+$95 ,1%,0% for 18 months,Budget Coaching,15%,Travel Insurance,20.71993049
+$95 ,1%,0% for 18 months,Budget Coaching,20%,None,289.4376874
+$95 ,1%,0% for 18 months,Budget Coaching,20%,Airport Lounge,247.7994982
+$95 ,1%,0% for 18 months,Budget Coaching,20%,Travel Insurance,253.1798051
+$95 ,1%,0% for 18 months,Budget Coaching,25%,None,342.8529235
+$95 ,1%,0% for 18 months,Budget Coaching,25%,Airport Lounge,366.4531846
+$95 ,1%,0% for 18 months,Budget Coaching,25%,Travel Insurance,371.1140655
+$95 ,1%,0% for 18 months,Budget Coaching,30%,None,227.1153456
+$95 ,1%,0% for 18 months,Budget Coaching,30%,Airport Lounge,346.2300614
+$95 ,1%,0% for 18 months,Budget Coaching,30%,Travel Insurance,343.7042013
+$95 ,2%,None,Basic App,15%,None,463.2066418
+$95 ,2%,None,Basic App,15%,Airport Lounge,440.3218351
+$95 ,2%,None,Basic App,15%,Travel Insurance,444.8276419
+$95 ,2%,None,Basic App,20%,None,567.8179182
+$95 ,2%,None,Basic App,20%,Airport Lounge,623.7272996
+$95 ,2%,None,Basic App,20%,Travel Insurance,624.0481417
+$95 ,2%,None,Basic App,25%,None,491.7222972
+$95 ,2%,None,Basic App,25%,Airport Lounge,679.4295474
+$95 ,2%,None,Basic App,25%,Travel Insurance,669.3712228
+$95 ,2%,None,Basic App,30%,None,251.8311675
+$95 ,2%,None,Basic App,30%,Airport Lounge,523.1179174
+$95 ,2%,None,Basic App,30%,Travel Insurance,500.229605
+$95 ,2%,None,Spend Insights,15%,None,500.4906932
+$95 ,2%,None,Spend Insights,15%,Airport Lounge,454.1038532
+$95 ,2%,None,Spend Insights,15%,Travel Insurance,462.0548588
+$95 ,2%,None,Spend Insights,20%,None,656.943266
+$95 ,2%,None,Spend Insights,20%,Airport Lounge,653.2596204
+$95 ,2%,None,Spend Insights,20%,Travel Insurance,660.0890339
+$95 ,2%,None,Spend Insights,25%,None,657.0037401
+$95 ,2%,None,Spend Insights,25%,Airport Lounge,745.9032412
+$95 ,2%,None,Spend Insights,25%,Travel Insurance,745.1473749
+$95 ,2%,None,Spend Insights,30%,None,426.6653375
+$95 ,2%,None,Spend Insights,30%,Airport Lounge,670.3730394
+$95 ,2%,None,Spend Insights,30%,Travel Insurance,656.2674947
+$95 ,2%,None,Budget Coaching,15%,None,505.0225645
+$95 ,2%,None,Budget Coaching,15%,Airport Lounge,454.8932589
+$95 ,2%,None,Budget Coaching,15%,Travel Insurance,464.4134297
+$95 ,2%,None,Budget Coaching,20%,None,666.817183
+$95 ,2%,None,Budget Coaching,20%,Airport Lounge,656.534666
+$95 ,2%,None,Budget Coaching,20%,Travel Insurance,667.0463041
+$95 ,2%,None,Budget Coaching,25%,None,673.7130129
+$95 ,2%,None,Budget Coaching,25%,Airport Lounge,750.7471057
+$95 ,2%,None,Budget Coaching,25%,Travel Insurance,754.8530769
+$95 ,2%,None,Budget Coaching,30%,None,449.6870815
+$95 ,2%,None,Budget Coaching,30%,Airport Lounge,681.8797958
+$95 ,2%,None,Budget Coaching,30%,Travel Insurance,672.5734662
+$95 ,2%,0% for 12 months,Basic App,15%,None,148.9981035
+$95 ,2%,0% for 12 months,Basic App,15%,Airport Lounge,75.94383114
+$95 ,2%,0% for 12 months,Basic App,15%,Travel Insurance,77.6131837
+$95 ,2%,0% for 12 months,Basic App,20%,None,352.5871658
+$95 ,2%,0% for 12 months,Basic App,20%,Airport Lounge,300.3013744
+$95 ,2%,0% for 12 months,Basic App,20%,Travel Insurance,305.9097753
+$95 ,2%,0% for 12 months,Basic App,25%,None,437.7033817
+$95 ,2%,0% for 12 months,Basic App,25%,Airport Lounge,425.260222
+$95 ,2%,0% for 12 months,Basic App,25%,Travel Insurance,429.4915961
+$95 ,2%,0% for 12 months,Basic App,30%,None,356.9683292
+$95 ,2%,0% for 12 months,Basic App,30%,Airport Lounge,435.6910384
+$95 ,2%,0% for 12 months,Basic App,30%,Travel Insurance,433.6728095
+$95 ,2%,0% for 12 months,Spend Insights,15%,None,149.6469194
+$95 ,2%,0% for 12 months,Spend Insights,15%,Airport Lounge,71.14243946
+$95 ,2%,0% for 12 months,Spend Insights,15%,Travel Insurance,72.6967216
+$95 ,2%,0% for 12 months,Spend Insights,20%,None,369.8222186
+$95 ,2%,0% for 12 months,Spend Insights,20%,Airport Lounge,306.4888913
+$95 ,2%,0% for 12 months,Spend Insights,20%,Travel Insurance,313.545302
+$95 ,2%,0% for 12 months,Spend Insights,25%,None,480.1950059
+$95 ,2%,0% for 12 months,Spend Insights,25%,Airport Lounge,440.7588862
+$95 ,2%,0% for 12 months,Spend Insights,25%,Travel Insurance,448.5075046
+$95 ,2%,0% for 12 months,Spend Insights,30%,None,451.6340199
+$95 ,2%,0% for 12 months,Spend Insights,30%,Airport Lounge,468.1029441
+$95 ,2%,0% for 12 months,Spend Insights,30%,Travel Insurance,471.4373495
+$95 ,2%,0% for 12 months,Budget Coaching,15%,None,144.8889612
+$95 ,2%,0% for 12 months,Budget Coaching,15%,Airport Lounge,64.04117808
+$95 ,2%,0% for 12 months,Budget Coaching,15%,Travel Insurance,65.38971616
+$95 ,2%,0% for 12 months,Budget Coaching,20%,None,371.4465063
+$95 ,2%,0% for 12 months,Budget Coaching,20%,Airport Lounge,304.9927005
+$95 ,2%,0% for 12 months,Budget Coaching,20%,Travel Insurance,312.5638497
+$95 ,2%,0% for 12 months,Budget Coaching,25%,None,485.9152322
+$95 ,2%,0% for 12 months,Budget Coaching,25%,Airport Lounge,442.0589896
+$95 ,2%,0% for 12 months,Budget Coaching,25%,Travel Insurance,451.7646954
+$95 ,2%,0% for 12 months,Budget Coaching,30%,None,462.008148
+$95 ,2%,0% for 12 months,Budget Coaching,30%,Airport Lounge,470.8366144
+$95 ,2%,0% for 12 months,Budget Coaching,30%,Travel Insurance,477.1642422
+$95 ,2%,0% for 18 months,Basic App,15%,None,-44.31678137
+$95 ,2%,0% for 18 months,Basic App,15%,Airport Lounge,-129.2960851
+$95 ,2%,0% for 18 months,Basic App,15%,Travel Insurance,-132.1705187
+$95 ,2%,0% for 18 months,Basic App,20%,None,185.4181523
+$95 ,2%,0% for 18 months,Basic App,20%,Airport Lounge,114.9696756
+$95 ,2%,0% for 18 months,Basic App,20%,Travel Insurance,117.5719648
+$95 ,2%,0% for 18 months,Basic App,25%,None,307.0533966
+$95 ,2%,0% for 18 months,Basic App,25%,Airport Lounge,259.061589
+$95 ,2%,0% for 18 months,Basic App,25%,Travel Insurance,263.3449411
+$95 ,2%,0% for 18 months,Basic App,30%,None,296.063173
+$95 ,2%,0% for 18 months,Basic App,30%,Airport Lounge,300.6907446
+$95 ,2%,0% for 18 months,Basic App,30%,Travel Insurance,302.1578217
+$95 ,2%,0% for 18 months,Spend Insights,15%,None,-55.01589924
+$95 ,2%,0% for 18 months,Spend Insights,15%,Airport Lounge,-143.4796744
+$95 ,2%,0% for 18 months,Spend Insights,15%,Travel Insurance,-146.1983589
+$95 ,2%,0% for 18 months,Spend Insights,20%,None,188.3951526
+$95 ,2%,0% for 18 months,Spend Insights,20%,Airport Lounge,111.9052202
+$95 ,2%,0% for 18 months,Spend Insights,20%,Travel Insurance,114.5247851
+$95 ,2%,0% for 18 months,Spend Insights,25%,None,325.5395102
+$95 ,2%,0% for 18 months,Spend Insights,25%,Airport Lounge,264.1224875
+$95 ,2%,0% for 18 months,Spend Insights,25%,Travel Insurance,269.845463
+$95 ,2%,0% for 18 months,Spend Insights,30%,None,344.5329921
+$95 ,2%,0% for 18 months,Spend Insights,30%,Airport Lounge,313.8950024
+$95 ,2%,0% for 18 months,Spend Insights,30%,Travel Insurance,318.5243692
+$95 ,2%,0% for 18 months,Budget Coaching,15%,None,-64.76529085
+$95 ,2%,0% for 18 months,Budget Coaching,15%,Airport Lounge,-154.8113352
+$95 ,2%,0% for 18 months,Budget Coaching,15%,Travel Insurance,-157.4212787
+$95 ,2%,0% for 18 months,Budget Coaching,20%,None,184.7475602
+$95 ,2%,0% for 18 months,Budget Coaching,20%,Airport Lounge,105.7858591
+$95 ,2%,0% for 18 months,Budget Coaching,20%,Travel Insurance,108.232055
+$95 ,2%,0% for 18 months,Budget Coaching,25%,None,326.3601902
+$95 ,2%,0% for 18 months,Budget Coaching,25%,Airport Lounge,261.7347829
+$95 ,2%,0% for 18 months,Budget Coaching,25%,Travel Insurance,267.9974381
+$95 ,2%,0% for 18 months,Budget Coaching,30%,None,348.9877232
+$95 ,2%,0% for 18 months,Budget Coaching,30%,Airport Lounge,313.3468462
+$95 ,2%,0% for 18 months,Budget Coaching,30%,Travel Insurance,319.6483048
+$95 ,3%,None,Basic App,15%,None,369.2647231
+$95 ,3%,None,Basic App,15%,Airport Lounge,308.4877193
+$95 ,3%,None,Basic App,15%,Travel Insurance,313.7835871
+$95 ,3%,None,Basic App,20%,None,548.601916
+$95 ,3%,None,Basic App,20%,Airport Lounge,519.5658059
+$95 ,3%,None,Basic App,20%,Travel Insurance,524.3175192
+$95 ,3%,None,Basic App,25%,None,589.5778181
+$95 ,3%,None,Basic App,25%,Airport Lounge,632.4231977
+$95 ,3%,None,Basic App,25%,Travel Insurance,631.5496069
+$95 ,3%,None,Basic App,30%,None,417.6797428
+$95 ,3%,None,Basic App,30%,Airport Lounge,600.3495596
+$95 ,3%,None,Basic App,30%,Travel Insurance,587.9597053
+$95 ,3%,None,Spend Insights,15%,None,382.1927233
+$95 ,3%,None,Spend Insights,15%,Airport Lounge,312.9310115
+$95 ,3%,None,Spend Insights,15%,Travel Insurance,319.792762
+$95 ,3%,None,Spend Insights,20%,None,583.1226518
+$95 ,3%,None,Spend Insights,20%,Airport Lounge,532.1633243
+$95 ,3%,None,Spend Insights,20%,Travel Insurance,540.9929023
+$95 ,3%,None,Spend Insights,25%,None,670.2841243
+$95 ,3%,None,Spend Insights,25%,Airport Lounge,657.7231848
+$95 ,3%,None,Spend Insights,25%,Travel Insurance,663.0751598
+$95 ,3%,None,Spend Insights,30%,None,572.9344759
+$95 ,3%,None,Spend Insights,30%,Airport Lounge,664.2477637
+$95 ,3%,None,Spend Insights,30%,Travel Insurance,660.1590373
+$95 ,3%,None,Budget Coaching,15%,None,382.2232727
+$95 ,3%,None,Budget Coaching,15%,Airport Lounge,310.7248797
+$95 ,3%,None,Budget Coaching,15%,Travel Insurance,317.8012474
+$95 ,3%,None,Budget Coaching,20%,None,586.9064207
+$95 ,3%,None,Budget Coaching,20%,Airport Lounge,532.9771785
+$95 ,3%,None,Budget Coaching,20%,Travel Insurance,543.7770628
+$95 ,3%,None,Budget Coaching,25%,None,677.0466634
+$95 ,3%,None,Budget Coaching,25%,Airport Lounge,659.0096326
+$95 ,3%,None,Budget Coaching,25%,Travel Insurance,667.5625899
+$95 ,3%,None,Budget Coaching,30%,None,586.8410957
+$95 ,3%,None,Budget Coaching,30%,Airport Lounge,666.6034881
+$95 ,3%,None,Budget Coaching,30%,Travel Insurance,666.62738
+$95 ,3%,0% for 12 months,Basic App,15%,None,-4.073126132
+$95 ,3%,0% for 12 months,Basic App,15%,Airport Lounge,-87.83132055
+$95 ,3%,0% for 12 months,Basic App,15%,Travel Insurance,-89.81451317
+$95 ,3%,0% for 12 months,Basic App,20%,None,227.4169358
+$95 ,3%,0% for 12 months,Basic App,20%,Airport Lounge,155.454065
+$95 ,3%,0% for 12 months,Basic App,20%,Travel Insurance,158.8486265
+$95 ,3%,0% for 12 months,Basic App,25%,None,355.7550773
+$95 ,3%,0% for 12 months,Basic App,25%,Airport Lounge,300.6431485
+$95 ,3%,0% for 12 months,Basic App,25%,Travel Insurance,305.3249751
+$95 ,3%,0% for 12 months,Basic App,30%,None,362.0912202
+$95 ,3%,0% for 12 months,Basic App,30%,Airport Lounge,347.7105879
+$95 ,3%,0% for 12 months,Basic App,30%,Travel Insurance,349.3535935
+$95 ,3%,0% for 12 months,Spend Insights,15%,None,-12.79016185
+$95 ,3%,0% for 12 months,Spend Insights,15%,Airport Lounge,-100.1833568
+$95 ,3%,0% for 12 months,Spend Insights,15%,Travel Insurance,-102.1835169
+$95 ,3%,0% for 12 months,Spend Insights,20%,None,230.8341684
+$95 ,3%,0% for 12 months,Spend Insights,20%,Airport Lounge,153.7446954
+$95 ,3%,0% for 12 months,Spend Insights,20%,Travel Insurance,157.3364595
+$95 ,3%,0% for 12 months,Spend Insights,25%,None,370.7868384
+$95 ,3%,0% for 12 months,Spend Insights,25%,Airport Lounge,305.7572912
+$95 ,3%,0% for 12 months,Spend Insights,25%,Travel Insurance,312.1847464
+$95 ,3%,0% for 12 months,Spend Insights,30%,None,399.097449
+$95 ,3%,0% for 12 months,Spend Insights,30%,Airport Lounge,357.7599913
+$95 ,3%,0% for 12 months,Spend Insights,30%,Travel Insurance,362.5893093
+$95 ,3%,0% for 12 months,Budget Coaching,15%,None,-21.72814627
+$95 ,3%,0% for 12 months,Budget Coaching,15%,Airport Lounge,-110.7791887
+$95 ,3%,0% for 12 months,Budget Coaching,15%,Travel Insurance,-112.7341873
+$95 ,3%,0% for 12 months,Budget Coaching,20%,None,227.6292797
+$95 ,3%,0% for 12 months,Budget Coaching,20%,Airport Lounge,148.3235358
+$95 ,3%,0% for 12 months,Budget Coaching,20%,Travel Insurance,151.7817488
+$95 ,3%,0% for 12 months,Budget Coaching,25%,None,371.1814827
+$95 ,3%,0% for 12 months,Budget Coaching,25%,Airport Lounge,303.5765879
+$95 ,3%,0% for 12 months,Budget Coaching,25%,Travel Insurance,310.704665
+$95 ,3%,0% for 12 months,Budget Coaching,30%,None,401.9016333
+$95 ,3%,0% for 12 months,Budget Coaching,30%,Airport Lounge,356.5778119
+$95 ,3%,0% for 12 months,Budget Coaching,30%,Travel Insurance,363.3382168
+$95 ,3%,0% for 18 months,Basic App,15%,None,-216.592342
+$95 ,3%,0% for 18 months,Basic App,15%,Airport Lounge,-308.067679
+$95 ,3%,0% for 18 months,Basic App,15%,Travel Insurance,-314.4428837
+$95 ,3%,0% for 18 months,Basic App,20%,None,36.25710929
+$95 ,3%,0% for 18 months,Basic App,20%,Airport Lounge,-45.50886557
+$95 ,3%,0% for 18 months,Basic App,20%,Travel Insurance,-46.57147146
+$95 ,3%,0% for 18 months,Basic App,25%,None,186.1115505
+$95 ,3%,0% for 18 months,Basic App,25%,Airport Lounge,114.7657526
+$95 ,3%,0% for 18 months,Basic App,25%,Travel Insurance,117.1189521
+$95 ,3%,0% for 18 months,Basic App,30%,None,230.7718309
+$95 ,3%,0% for 18 months,Basic App,30%,Airport Lounge,179.9139456
+$95 ,3%,0% for 18 months,Basic App,30%,Travel Insurance,182.1163529
+$95 ,3%,0% for 18 months,Spend Insights,15%,None,-234.2431082
+$95 ,3%,0% for 18 months,Spend Insights,15%,Airport Lounge,-328.3332302
+$95 ,3%,0% for 18 months,Spend Insights,15%,Travel Insurance,-333.5392801
+$95 ,3%,0% for 18 months,Spend Insights,20%,None,29.51714198
+$95 ,3%,0% for 18 months,Spend Insights,20%,Airport Lounge,-56.00713504
+$95 ,3%,0% for 18 months,Spend Insights,20%,Travel Insurance,-57.20913703
+$95 ,3%,0% for 18 months,Spend Insights,25%,None,188.3586502
+$95 ,3%,0% for 18 months,Spend Insights,25%,Airport Lounge,111.4752498
+$95 ,3%,0% for 18 months,Spend Insights,25%,Travel Insurance,114.0135336
+$95 ,3%,0% for 18 months,Spend Insights,30%,None,243.3555937
+$95 ,3%,0% for 18 months,Spend Insights,30%,Airport Lounge,180.4003953
+$95 ,3%,0% for 18 months,Spend Insights,30%,Travel Insurance,183.8818896
+$95 ,3%,0% for 18 months,Budget Coaching,15%,None,-246.9107478
+$95 ,3%,0% for 18 months,Budget Coaching,15%,Airport Lounge,-342.0427148
+$95 ,3%,0% for 18 months,Budget Coaching,15%,Travel Insurance,-346.4210558
+$95 ,3%,0% for 18 months,Budget Coaching,20%,None,21.50869559
+$95 ,3%,0% for 18 months,Budget Coaching,20%,Airport Lounge,-65.79753902
+$95 ,3%,0% for 18 months,Budget Coaching,20%,Travel Insurance,-67.09149869
+$95 ,3%,0% for 18 months,Budget Coaching,25%,None,184.3304236
+$95 ,3%,0% for 18 months,Budget Coaching,25%,Airport Lounge,105.2667616
+$95 ,3%,0% for 18 months,Budget Coaching,25%,Travel Insurance,107.6861319
+$95 ,3%,0% for 18 months,Budget Coaching,30%,None,241.8842395
+$95 ,3%,0% for 18 months,Budget Coaching,30%,Airport Lounge,176.1368373
+$95 ,3%,0% for 18 months,Budget Coaching,30%,Travel Insurance,180.2400785
+$150 ,1%,None,Basic App,15%,None,156.4319238
+$150 ,1%,None,Basic App,15%,Airport Lounge,332.7611376
+$150 ,1%,None,Basic App,15%,Travel Insurance,314.3111946
+$150 ,1%,None,Basic App,20%,None,125.7137269
+$150 ,1%,None,Basic App,20%,Airport Lounge,291.8728783
+$150 ,1%,None,Basic App,20%,Travel Insurance,269.8940728
+$150 ,1%,None,Basic App,25%,None,78.90901942
+$150 ,1%,None,Basic App,25%,Airport Lounge,186.7061027
+$150 ,1%,None,Basic App,25%,Travel Insurance,168.3947455
+$150 ,1%,None,Basic App,30%,None,35.24413107
+$150 ,1%,None,Basic App,30%,Airport Lounge,81.67971115
+$150 ,1%,None,Basic App,30%,Travel Insurance,71.62795962
+$150 ,1%,None,Spend Insights,15%,None,267.4133388
+$150 ,1%,None,Spend Insights,15%,Airport Lounge,446.0572635
+$150 ,1%,None,Spend Insights,15%,Travel Insurance,432.081056
+$150 ,1%,None,Spend Insights,20%,None,211.6883841
+$150 ,1%,None,Spend Insights,20%,Airport Lounge,452.2059706
+$150 ,1%,None,Spend Insights,20%,Travel Insurance,428.4472586
+$150 ,1%,None,Spend Insights,25%,None,126.9275649
+$150 ,1%,None,Spend Insights,25%,Airport Lounge,316.0791592
+$150 ,1%,None,Spend Insights,25%,Travel Insurance,290.97691
+$150 ,1%,None,Spend Insights,30%,None,54.29040336
+$150 ,1%,None,Spend Insights,30%,Airport Lounge,138.3417669
+$150 ,1%,None,Spend Insights,30%,Travel Insurance,123.9928595
+$150 ,1%,None,Budget Coaching,15%,None,281.2766472
+$150 ,1%,None,Budget Coaching,15%,Airport Lounge,452.9230016
+$150 ,1%,None,Budget Coaching,15%,Travel Insurance,441.731837
+$150 ,1%,None,Budget Coaching,20%,None,225.7897474
+$150 ,1%,None,Budget Coaching,20%,Airport Lounge,468.036343
+$150 ,1%,None,Budget Coaching,20%,Travel Insurance,446.7060894
+$150 ,1%,None,Budget Coaching,25%,None,136.5950065
+$150 ,1%,None,Budget Coaching,25%,Airport Lounge,333.5544269
+$150 ,1%,None,Budget Coaching,25%,Travel Insurance,309.7081494
+$150 ,1%,None,Budget Coaching,30%,None,59.04270578
+$150 ,1%,None,Budget Coaching,30%,Airport Lounge,149.4828098
+$150 ,1%,None,Budget Coaching,30%,Travel Insurance,135.0059498
+$150 ,1%,0% for 12 months,Basic App,15%,None,179.3434331
+$150 ,1%,0% for 12 months,Basic App,15%,Airport Lounge,211.2177206
+$150 ,1%,0% for 12 months,Basic App,15%,Travel Insurance,208.1750739
+$150 ,1%,0% for 12 months,Basic App,20%,None,192.2494527
+$150 ,1%,0% for 12 months,Basic App,20%,Airport Lounge,327.199697
+$150 ,1%,0% for 12 months,Basic App,20%,Travel Insurance,316.7250507
+$150 ,1%,0% for 12 months,Basic App,25%,None,126.131601
+$150 ,1%,0% for 12 months,Basic App,25%,Airport Lounge,289.162676
+$150 ,1%,0% for 12 months,Basic App,25%,Travel Insurance,272.4921229
+$150 ,1%,0% for 12 months,Basic App,30%,None,51.61289545
+$150 ,1%,0% for 12 months,Basic App,30%,Airport Lounge,141.626369
+$150 ,1%,0% for 12 months,Basic App,30%,Travel Insurance,129.5973859
+$150 ,1%,0% for 12 months,Spend Insights,15%,None,236.1809487
+$150 ,1%,0% for 12 months,Spend Insights,15%,Airport Lounge,226.3503681
+$150 ,1%,0% for 12 months,Spend Insights,15%,Travel Insurance,226.0232782
+$150 ,1%,0% for 12 months,Spend Insights,20%,None,299.8609507
+$150 ,1%,0% for 12 months,Spend Insights,20%,Airport Lounge,388.3882311
+$150 ,1%,0% for 12 months,Spend Insights,20%,Travel Insurance,383.1946903
+$150 ,1%,0% for 12 months,Spend Insights,25%,None,224.5468419
+$150 ,1%,0% for 12 months,Spend Insights,25%,Airport Lounge,408.2007375
+$150 ,1%,0% for 12 months,Spend Insights,25%,Travel Insurance,394.3194548
+$150 ,1%,0% for 12 months,Spend Insights,30%,None,96.29692879
+$150 ,1%,0% for 12 months,Spend Insights,30%,Airport Lounge,251.4964068
+$150 ,1%,0% for 12 months,Spend Insights,30%,Travel Insurance,235.0198928
+$150 ,1%,0% for 12 months,Budget Coaching,15%,None,239.0334713
+$150 ,1%,0% for 12 months,Budget Coaching,15%,Airport Lounge,223.5063005
+$150 ,1%,0% for 12 months,Budget Coaching,15%,Travel Insurance,224.5355488
+$150 ,1%,0% for 12 months,Budget Coaching,20%,None,311.0654332
+$150 ,1%,0% for 12 months,Budget Coaching,20%,Airport Lounge,390.497304
+$150 ,1%,0% for 12 months,Budget Coaching,20%,Travel Insurance,387.5274669
+$150 ,1%,0% for 12 months,Budget Coaching,25%,None,238.8000097
+$150 ,1%,0% for 12 months,Budget Coaching,25%,Airport Lounge,417.426771
+$150 ,1%,0% for 12 months,Budget Coaching,25%,Travel Insurance,405.8971444
+$150 ,1%,0% for 12 months,Budget Coaching,30%,None,105.1366425
+$150 ,1%,0% for 12 months,Budget Coaching,30%,Airport Lounge,265.5921543
+$150 ,1%,0% for 12 months,Budget Coaching,30%,Travel Insurance,249.6771234
+$150 ,1%,0% for 18 months,Basic App,15%,None,99.48726983
+$150 ,1%,0% for 18 months,Basic App,15%,Airport Lounge,65.44314787
+$150 ,1%,0% for 18 months,Basic App,15%,Travel Insurance,65.18164983
+$150 ,1%,0% for 18 months,Basic App,20%,None,176.9898315
+$150 ,1%,0% for 18 months,Basic App,20%,Airport Lounge,232.0361307
+$150 ,1%,0% for 18 months,Basic App,20%,Travel Insurance,227.8797317
+$150 ,1%,0% for 18 months,Basic App,25%,None,139.7863629
+$150 ,1%,0% for 18 months,Basic App,25%,Airport Lounge,264.1688608
+$150 ,1%,0% for 18 months,Basic App,25%,Travel Insurance,253.1767725
+$150 ,1%,0% for 18 months,Basic App,30%,None,63.05017022
+$150 ,1%,0% for 18 months,Basic App,30%,Airport Lounge,156.6084903
+$150 ,1%,0% for 18 months,Basic App,30%,Travel Insurance,145.3036122
+$150 ,1%,0% for 18 months,Spend Insights,15%,None,115.807992
+$150 ,1%,0% for 18 months,Spend Insights,15%,Airport Lounge,63.0187715
+$150 ,1%,0% for 18 months,Spend Insights,15%,Travel Insurance,63.44905346
+$150 ,1%,0% for 18 months,Spend Insights,20%,None,245.8583611
+$150 ,1%,0% for 18 months,Spend Insights,20%,Airport Lounge,255.3955248
+$150 ,1%,0% for 18 months,Spend Insights,20%,Travel Insurance,254.5939387
+$150 ,1%,0% for 18 months,Spend Insights,25%,None,231.7097552
+$150 ,1%,0% for 18 months,Spend Insights,25%,Airport Lounge,334.028112
+$150 ,1%,0% for 18 months,Spend Insights,25%,Travel Insurance,327.3809541
+$150 ,1%,0% for 18 months,Spend Insights,30%,None,115.9482052
+$150 ,1%,0% for 18 months,Spend Insights,30%,Airport Lounge,252.970774
+$150 ,1%,0% for 18 months,Spend Insights,30%,Travel Insurance,240.5163622
+$150 ,1%,0% for 18 months,Budget Coaching,15%,None,113.0329617
+$150 ,1%,0% for 18 months,Budget Coaching,15%,Airport Lounge,57.00619032
+$150 ,1%,0% for 18 months,Budget Coaching,15%,Travel Insurance,57.74281701
+$150 ,1%,0% for 18 months,Budget Coaching,20%,None,250.7244048
+$150 ,1%,0% for 18 months,Budget Coaching,20%,Airport Lounge,253.4096278
+$150 ,1%,0% for 18 months,Budget Coaching,20%,Travel Insurance,254.1256365
+$150 ,1%,0% for 18 months,Budget Coaching,25%,None,242.4338992
+$150 ,1%,0% for 18 months,Budget Coaching,25%,Airport Lounge,336.9277333
+$150 ,1%,0% for 18 months,Budget Coaching,25%,Travel Insurance,332.3638186
+$150 ,1%,0% for 18 months,Budget Coaching,30%,None,124.8789734
+$150 ,1%,0% for 18 months,Budget Coaching,30%,Airport Lounge,262.491968
+$150 ,1%,0% for 18 months,Budget Coaching,30%,Travel Insurance,251.1606584
+$150 ,2%,None,Basic App,15%,None,400.8440678
+$150 ,2%,None,Basic App,15%,Airport Lounge,433.5856558
+$150 ,2%,None,Basic App,15%,Travel Insurance,429.6798064
+$150 ,2%,None,Basic App,20%,None,421.6738882
+$150 ,2%,None,Basic App,20%,Airport Lounge,577.6124435
+$150 ,2%,None,Basic App,20%,Travel Insurance,566.1440572
+$150 ,2%,None,Basic App,25%,None,298.488583
+$150 ,2%,None,Basic App,25%,Airport Lounge,559.0195441
+$150 ,2%,None,Basic App,25%,Travel Insurance,536.0538597
+$150 ,2%,None,Basic App,30%,None,129.2440658
+$150 ,2%,None,Basic App,30%,Airport Lounge,334.5199006
+$150 ,2%,None,Basic App,30%,Travel Insurance,310.0625543
+$150 ,2%,None,Spend Insights,15%,None,464.123707
+$150 ,2%,None,Spend Insights,15%,Airport Lounge,449.3251965
+$150 ,2%,None,Spend Insights,15%,Travel Insurance,449.2422586
+$150 ,2%,None,Spend Insights,20%,None,559.5041587
+$150 ,2%,None,Spend Insights,20%,Airport Lounge,627.1705782
+$150 ,2%,None,Spend Insights,20%,Travel Insurance,622.2143945
+$150 ,2%,None,Spend Insights,25%,None,474.9738432
+$150 ,2%,None,Spend Insights,25%,Airport Lounge,678.1827683
+$150 ,2%,None,Spend Insights,25%,Travel Insurance,663.2692277
+$150 ,2%,None,Spend Insights,30%,None,237.9268087
+$150 ,2%,None,Spend Insights,30%,Airport Lounge,514.8324636
+$150 ,2%,None,Spend Insights,30%,Travel Insurance,489.8220803
+$150 ,2%,None,Budget Coaching,15%,None,467.786959
+$150 ,2%,None,Budget Coaching,15%,Airport Lounge,447.507641
+$150 ,2%,None,Budget Coaching,15%,Travel Insurance,449.9980747
+$150 ,2%,None,Budget Coaching,20%,None,571.106093
+$150 ,2%,None,Budget Coaching,20%,Airport Lounge,628.2400597
+$150 ,2%,None,Budget Coaching,20%,Travel Insurance,626.5477439
+$150 ,2%,None,Budget Coaching,25%,None,494.1399558
+$150 ,2%,None,Budget Coaching,25%,Airport Lounge,684.8137619
+$150 ,2%,None,Budget Coaching,25%,Travel Insurance,673.445649
+$150 ,2%,None,Budget Coaching,30%,None,254.1886482
+$150 ,2%,None,Budget Coaching,30%,Airport Lounge,532.1924652
+$150 ,2%,None,Budget Coaching,30%,Travel Insurance,509.1224164
+$150 ,2%,0% for 12 months,Basic App,15%,None,166.943345
+$150 ,2%,0% for 12 months,Basic App,15%,Airport Lounge,107.6328467
+$150 ,2%,0% for 12 months,Basic App,15%,Travel Insurance,108.547755
+$150 ,2%,0% for 12 months,Basic App,20%,None,334.876674
+$150 ,2%,0% for 12 months,Basic App,20%,Airport Lounge,310.5985986
+$150 ,2%,0% for 12 months,Basic App,20%,Travel Insurance,310.922955
+$150 ,2%,0% for 12 months,Basic App,25%,None,367.6032942
+$150 ,2%,0% for 12 months,Basic App,25%,Airport Lounge,416.1873158
+$150 ,2%,0% for 12 months,Basic App,25%,Travel Insurance,412.1922604
+$150 ,2%,0% for 12 months,Basic App,30%,None,232.8590089
+$150 ,2%,0% for 12 months,Basic App,30%,Airport Lounge,385.4895171
+$150 ,2%,0% for 12 months,Basic App,30%,Travel Insurance,374.2601737
+$150 ,2%,0% for 12 months,Spend Insights,15%,None,170.2164738
+$150 ,2%,0% for 12 months,Spend Insights,15%,Airport Lounge,104.1270022
+$150 ,2%,0% for 12 months,Spend Insights,15%,Travel Insurance,105.8019957
+$150 ,2%,0% for 12 months,Spend Insights,20%,None,361.2712054
+$150 ,2%,0% for 12 months,Spend Insights,20%,Airport Lounge,315.3010627
+$150 ,2%,0% for 12 months,Spend Insights,20%,Travel Insurance,318.1333037
+$150 ,2%,0% for 12 months,Spend Insights,25%,None,440.1267672
+$150 ,2%,0% for 12 months,Spend Insights,25%,Airport Lounge,435.9507586
+$150 ,2%,0% for 12 months,Spend Insights,25%,Travel Insurance,435.8096194
+$150 ,2%,0% for 12 months,Spend Insights,30%,None,355.3903327
+$150 ,2%,0% for 12 months,Spend Insights,30%,Airport Lounge,445.9930482
+$150 ,2%,0% for 12 months,Spend Insights,30%,Travel Insurance,440.1000862
+$150 ,2%,0% for 12 months,Budget Coaching,15%,None,166.7950197
+$150 ,2%,0% for 12 months,Budget Coaching,15%,Airport Lounge,98.46523571
+$150 ,2%,0% for 12 months,Budget Coaching,15%,Travel Insurance,100.5555785
+$150 ,2%,0% for 12 months,Budget Coaching,20%,None,362.1910885
+$150 ,2%,0% for 12 months,Budget Coaching,20%,Airport Lounge,312.8007877
+$150 ,2%,0% for 12 months,Budget Coaching,20%,Travel Insurance,317.3278458
+$150 ,2%,0% for 12 months,Budget Coaching,25%,None,445.4303554
+$150 ,2%,0% for 12 months,Budget Coaching,25%,Airport Lounge,435.1112817
+$150 ,2%,0% for 12 months,Budget Coaching,25%,Travel Insurance,437.3243508
+$150 ,2%,0% for 12 months,Budget Coaching,30%,None,367.1599669
+$150 ,2%,0% for 12 months,Budget Coaching,30%,Airport Lounge,448.7506685
+$150 ,2%,0% for 12 months,Budget Coaching,30%,Travel Insurance,444.8542665
+$150 ,2%,0% for 18 months,Basic App,15%,None,0
+$150 ,2%,0% for 18 months,Basic App,15%,Airport Lounge,-74.21762715
+$150 ,2%,0% for 18 months,Basic App,15%,Travel Insurance,-75.33999744
+$150 ,2%,0% for 18 months,Basic App,20%,None,197.4364657
+$150 ,2%,0% for 18 months,Basic App,20%,Airport Lounge,142.8280194
+$150 ,2%,0% for 18 months,Basic App,20%,Travel Insurance,143.9551512
+$150 ,2%,0% for 18 months,Basic App,25%,None,284.7805413
+$150 ,2%,0% for 18 months,Basic App,25%,Airport Lounge,270.5463628
+$150 ,2%,0% for 18 months,Basic App,25%,Travel Insurance,270.033211
+$150 ,2%,0% for 18 months,Basic App,30%,None,224.2715219
+$150 ,2%,0% for 18 months,Basic App,30%,Airport Lounge,291.4085686
+$150 ,2%,0% for 18 months,Basic App,30%,Travel Insurance,286.3673867
+$150 ,2%,0% for 18 months,Spend Insights,15%,None,-7.418554333
+$150 ,2%,0% for 18 months,Spend Insights,15%,Airport Lounge,-84.7188963
+$150 ,2%,0% for 18 months,Spend Insights,15%,Travel Insurance,-86.53619449
+$150 ,2%,0% for 18 months,Spend Insights,20%,None,204.0020871
+$150 ,2%,0% for 18 months,Spend Insights,20%,Airport Lounge,140.4016418
+$150 ,2%,0% for 18 months,Spend Insights,20%,Travel Insurance,142.5744646
+$150 ,2%,0% for 18 months,Spend Insights,25%,None,317.1449782
+$150 ,2%,0% for 18 months,Spend Insights,25%,Airport Lounge,276.0310776
+$150 ,2%,0% for 18 months,Spend Insights,25%,Travel Insurance,277.8831971
+$150 ,2%,0% for 18 months,Spend Insights,30%,None,302.4199227
+$150 ,2%,0% for 18 months,Spend Insights,30%,Airport Lounge,316.2878609
+$150 ,2%,0% for 18 months,Spend Insights,30%,Travel Insurance,314.8029845
+$150 ,2%,0% for 18 months,Budget Coaching,15%,None,-15.19292113
+$150 ,2%,0% for 18 months,Budget Coaching,15%,Airport Lounge,-94.32678415
+$150 ,2%,0% for 18 months,Budget Coaching,15%,Travel Insurance,-96.70758522
+$150 ,2%,0% for 18 months,Budget Coaching,20%,None,201.3163963
+$150 ,2%,0% for 18 months,Budget Coaching,20%,Airport Lounge,135.3404364
+$150 ,2%,0% for 18 months,Budget Coaching,20%,Travel Insurance,138.1393421
+$150 ,2%,0% for 18 months,Budget Coaching,25%,None,317.8926146
+$150 ,2%,0% for 18 months,Budget Coaching,25%,Airport Lounge,272.9818733
+$150 ,2%,0% for 18 months,Budget Coaching,25%,Travel Insurance,276.3625221
+$150 ,2%,0% for 18 months,Budget Coaching,30%,None,307.9929762
+$150 ,2%,0% for 18 months,Budget Coaching,30%,Airport Lounge,315.2211124
+$150 ,2%,0% for 18 months,Budget Coaching,30%,Travel Insurance,315.3228537
+$150 ,3%,None,Basic App,15%,None,360.4744184
+$150 ,3%,None,Basic App,15%,Airport Lounge,322.5547368
+$150 ,3%,None,Basic App,15%,Travel Insurance,322.1291631
+$150 ,3%,None,Basic App,20%,None,488.7004858
+$150 ,3%,None,Basic App,20%,Airport Lounge,514.8902516
+$150 ,3%,None,Basic App,20%,Travel Insurance,510.7281551
+$150 ,3%,None,Basic App,25%,None,452.3137133
+$150 ,3%,None,Basic App,25%,Airport Lounge,594.9699303
+$150 ,3%,None,Basic App,25%,Travel Insurance,582.7194472
+$150 ,3%,None,Basic App,30%,None,251.0604643
+$150 ,3%,None,Basic App,30%,Airport Lounge,485.9474301
+$150 ,3%,None,Basic App,30%,Travel Insurance,463.68989
+$150 ,3%,None,Spend Insights,15%,None,378.9326544
+$150 ,3%,None,Spend Insights,15%,Airport Lounge,324.5354838
+$150 ,3%,None,Spend Insights,15%,Travel Insurance,326.3704261
+$150 ,3%,None,Spend Insights,20%,None,549.5124705
+$150 ,3%,None,Spend Insights,20%,Airport Lounge,528.3304215
+$150 ,3%,None,Spend Insights,20%,Travel Insurance,527.8962016
+$150 ,3%,None,Spend Insights,25%,None,583.8152997
+$150 ,3%,None,Spend Insights,25%,Airport Lounge,638.9908941
+$150 ,3%,None,Spend Insights,25%,Travel Insurance,632.7587142
+$150 ,3%,None,Spend Insights,30%,None,406.0222216
+$150 ,3%,None,Spend Insights,30%,Airport Lounge,602.7962349
+$150 ,3%,None,Spend Insights,30%,Travel Insurance,587.3429073
+$150 ,3%,None,Budget Coaching,15%,None,377.3064565
+$150 ,3%,None,Budget Coaching,15%,Airport Lounge,320.3401195
+$150 ,3%,None,Budget Coaching,15%,Travel Insurance,323.8602305
+$150 ,3%,None,Budget Coaching,20%,None,551.7543867
+$150 ,3%,None,Budget Coaching,20%,Airport Lounge,525.2562015
+$150 ,3%,None,Budget Coaching,20%,Travel Insurance,527.4862417
+$150 ,3%,None,Budget Coaching,25%,None,592.5884328
+$150 ,3%,None,Budget Coaching,25%,Airport Lounge,637.5856369
+$150 ,3%,None,Budget Coaching,25%,Travel Insurance,634.4370358
+$150 ,3%,None,Budget Coaching,30%,None,422.9335349
+$150 ,3%,None,Budget Coaching,30%,Airport Lounge,608.806516
+$150 ,3%,None,Budget Coaching,30%,Travel Insurance,596.2449711
+$150 ,3%,0% for 12 months,Basic App,15%,None,36.14154632
+$150 ,3%,0% for 12 months,Basic App,15%,Airport Lounge,-37.47361477
+$150 ,3%,0% for 12 months,Basic App,15%,Travel Insurance,-37.98561409
+$150 ,3%,0% for 12 months,Basic App,20%,None,240.5492935
+$150 ,3%,0% for 12 months,Basic App,20%,Airport Lounge,181.3547043
+$150 ,3%,0% for 12 months,Basic App,20%,Travel Insurance,182.6432489
+$150 ,3%,0% for 12 months,Basic App,25%,None,343.2783555
+$150 ,3%,0% for 12 months,Basic App,25%,Airport Lounge,313.9055272
+$150 ,3%,0% for 12 months,Basic App,25%,Travel Insurance,313.4758641
+$150 ,3%,0% for 12 months,Basic App,30%,None,303.2626444
+$150 ,3%,0% for 12 months,Basic App,30%,Airport Lounge,347.3467042
+$150 ,3%,0% for 12 months,Basic App,30%,Travel Insurance,342.7723803
+$150 ,3%,0% for 12 months,Spend Insights,15%,None,30.11871505
+$150 ,3%,0% for 12 months,Spend Insights,15%,Airport Lounge,-46.46760977
+$150 ,3%,0% for 12 months,Spend Insights,15%,Travel Insurance,-47.40025696
+$150 ,3%,0% for 12 months,Spend Insights,20%,None,244.9104929
+$150 ,3%,0% for 12 months,Spend Insights,20%,Airport Lounge,179.0196959
+$150 ,3%,0% for 12 months,Spend Insights,20%,Travel Insurance,181.5487801
+$150 ,3%,0% for 12 months,Spend Insights,25%,None,366.3575863
+$150 ,3%,0% for 12 months,Spend Insights,25%,Airport Lounge,317.1788789
+$150 ,3%,0% for 12 months,Spend Insights,25%,Travel Insurance,319.0546922
+$150 ,3%,0% for 12 months,Spend Insights,30%,None,370.5214555
+$150 ,3%,0% for 12 months,Spend Insights,30%,Airport Lounge,364.0487424
+$150 ,3%,0% for 12 months,Spend Insights,30%,Travel Insurance,362.6400108
+$150 ,3%,0% for 12 months,Budget Coaching,15%,None,23.0470629
+$150 ,3%,0% for 12 months,Budget Coaching,15%,Airport Lounge,-55.19024602
+$150 ,3%,0% for 12 months,Budget Coaching,15%,Travel Insurance,-56.52651618
+$150 ,3%,0% for 12 months,Budget Coaching,20%,None,241.8819577
+$150 ,3%,0% for 12 months,Budget Coaching,20%,Airport Lounge,174.0464441
+$150 ,3%,0% for 12 months,Budget Coaching,20%,Travel Insurance,177.42865
+$150 ,3%,0% for 12 months,Budget Coaching,25%,None,365.6821014
+$150 ,3%,0% for 12 months,Budget Coaching,25%,Airport Lounge,313.4870989
+$150 ,3%,0% for 12 months,Budget Coaching,25%,Travel Insurance,317.0649217
+$150 ,3%,0% for 12 months,Budget Coaching,30%,None,374.0459206
+$150 ,3%,0% for 12 months,Budget Coaching,30%,Airport Lounge,361.6910031
+$150 ,3%,0% for 12 months,Budget Coaching,30%,Travel Insurance,362.0271662
+$150 ,3%,0% for 18 months,Basic App,15%,None,-150.0335334
+$150 ,3%,0% for 18 months,Basic App,15%,Airport Lounge,-231.6278662
+$150 ,3%,0% for 18 months,Basic App,15%,Travel Insurance,-236.0493627
+$150 ,3%,0% for 18 months,Basic App,20%,None,71.57548227
+$150 ,3%,0% for 18 months,Basic App,20%,Airport Lounge,0
+$150 ,3%,0% for 18 months,Basic App,20%,Travel Insurance,0
+$150 ,3%,0% for 18 months,Basic App,25%,None,200.7099174
+$150 ,3%,0% for 18 months,Basic App,25%,Airport Lounge,143.8193778
+$150 ,3%,0% for 18 months,Basic App,25%,Travel Insurance,144.5098941
+$150 ,3%,0% for 18 months,Basic App,30%,None,219.7567493
+$150 ,3%,0% for 18 months,Basic App,30%,Airport Lounge,200.2052869
+$150 ,3%,0% for 18 months,Basic App,30%,Travel Insurance,199.1078563
+$150 ,3%,0% for 18 months,Spend Insights,15%,None,-164.1113985
+$150 ,3%,0% for 18 months,Spend Insights,15%,Airport Lounge,-248.2400882
+$150 ,3%,0% for 18 months,Spend Insights,15%,Travel Insurance,-254.0744293
+$150 ,3%,0% for 18 months,Spend Insights,20%,None,67.11339314
+$150 ,3%,0% for 18 months,Spend Insights,20%,Airport Lounge,-7.671085821
+$150 ,3%,0% for 18 months,Spend Insights,20%,Travel Insurance,-7.820624417
+$150 ,3%,0% for 18 months,Spend Insights,25%,None,205.7613239
+$150 ,3%,0% for 18 months,Spend Insights,25%,Airport Lounge,140.7787543
+$150 ,3%,0% for 18 months,Spend Insights,25%,Travel Insurance,142.4764691
+$150 ,3%,0% for 18 months,Spend Insights,30%,None,246.5693705
+$150 ,3%,0% for 18 months,Spend Insights,30%,Airport Lounge,202.3687968
+$150 ,3%,0% for 18 months,Spend Insights,30%,Travel Insurance,202.8789362
+$150 ,3%,0% for 18 months,Budget Coaching,15%,None,-175.6727551
+$150 ,3%,0% for 18 months,Budget Coaching,15%,Airport Lounge,-261.3424448
+$150 ,3%,0% for 18 months,Budget Coaching,15%,Travel Insurance,-268.0769234
+$150 ,3%,0% for 18 months,Budget Coaching,20%,None,60.82133296
+$150 ,3%,0% for 18 months,Budget Coaching,20%,Airport Lounge,-15.60800732
+$150 ,3%,0% for 18 months,Budget Coaching,20%,Travel Insurance,-15.98200588
+$150 ,3%,0% for 18 months,Budget Coaching,25%,None,202.1712412
+$150 ,3%,0% for 18 months,Budget Coaching,25%,Airport Lounge,135.2093832
+$150 ,3%,0% for 18 months,Budget Coaching,25%,Travel Insurance,137.5811272
+$150 ,3%,0% for 18 months,Budget Coaching,30%,None,245.4850997
+$150 ,3%,0% for 18 months,Budget Coaching,30%,Airport Lounge,197.8389895
+$150 ,3%,0% for 18 months,Budget Coaching,30%,Travel Insurance,199.3862362
+$500 ,1%,None,Basic App,15%,None,88.72733291
+$500 ,1%,None,Basic App,15%,Airport Lounge,143.7945867
+$500 ,1%,None,Basic App,15%,Travel Insurance,130.602974
+$500 ,1%,None,Basic App,20%,None,97.22440268
+$500 ,1%,None,Basic App,20%,Airport Lounge,148.5334186
+$500 ,1%,None,Basic App,20%,Travel Insurance,135.3004241
+$500 ,1%,None,Basic App,25%,None,74.21867871
+$500 ,1%,None,Basic App,25%,Airport Lounge,122.155672
+$500 ,1%,None,Basic App,25%,Travel Insurance,109.0967636
+$500 ,1%,None,Basic App,30%,None,37.21084108
+$500 ,1%,None,Basic App,30%,Airport Lounge,70.57641991
+$500 ,1%,None,Basic App,30%,Travel Insurance,61.03975757
+$500 ,1%,None,Spend Insights,15%,None,112.0283648
+$500 ,1%,None,Spend Insights,15%,Airport Lounge,199.1838807
+$500 ,1%,None,Spend Insights,15%,Travel Insurance,182.3743166
+$500 ,1%,None,Spend Insights,20%,None,117.3718268
+$500 ,1%,None,Spend Insights,20%,Airport Lounge,185.0890763
+$500 ,1%,None,Spend Insights,20%,Travel Insurance,169.8196116
+$500 ,1%,None,Spend Insights,25%,None,89.74917932
+$500 ,1%,None,Spend Insights,25%,Airport Lounge,147.0753226
+$500 ,1%,None,Spend Insights,25%,Travel Insurance,132.3370429
+$500 ,1%,None,Spend Insights,30%,None,46.95114178
+$500 ,1%,None,Spend Insights,30%,Airport Lounge,86.95099226
+$500 ,1%,None,Spend Insights,30%,Travel Insurance,76.14133717
+$500 ,1%,None,Budget Coaching,15%,None,117.1147496
+$500 ,1%,None,Budget Coaching,15%,Airport Lounge,204.8033333
+$500 ,1%,None,Budget Coaching,15%,Travel Insurance,189.3806723
+$500 ,1%,None,Budget Coaching,20%,None,123.7342476
+$500 ,1%,None,Budget Coaching,20%,Airport Lounge,190.0006386
+$500 ,1%,None,Budget Coaching,20%,Travel Insurance,176.4292948
+$500 ,1%,None,Budget Coaching,25%,None,97.19484156
+$500 ,1%,None,Budget Coaching,25%,Airport Lounge,152.4511622
+$500 ,1%,None,Budget Coaching,25%,Travel Insurance,139.654168
+$500 ,1%,None,Budget Coaching,30%,None,53.84536699
+$500 ,1%,None,Budget Coaching,30%,Airport Lounge,95.0454848
+$500 ,1%,None,Budget Coaching,30%,Travel Insurance,84.76344479
+$500 ,1%,0% for 12 months,Basic App,15%,None,83.53246105
+$500 ,1%,0% for 12 months,Basic App,15%,Airport Lounge,157.6959405
+$500 ,1%,0% for 12 months,Basic App,15%,Travel Insurance,146.0520281
+$500 ,1%,0% for 12 months,Basic App,20%,None,90.82041467
+$500 ,1%,0% for 12 months,Basic App,20%,Airport Lounge,151.7181644
+$500 ,1%,0% for 12 months,Basic App,20%,Travel Insurance,140.3203096
+$500 ,1%,0% for 12 months,Basic App,25%,None,73.13966758
+$500 ,1%,0% for 12 months,Basic App,25%,Airport Lounge,119.131704
+$500 ,1%,0% for 12 months,Basic App,25%,Travel Insurance,109.1582924
+$500 ,1%,0% for 12 months,Basic App,30%,None,39.48380397
+$500 ,1%,0% for 12 months,Basic App,30%,Airport Lounge,71.93209709
+$500 ,1%,0% for 12 months,Basic App,30%,Travel Insurance,64.5715453
+$500 ,1%,0% for 12 months,Spend Insights,15%,None,124.3737853
+$500 ,1%,0% for 12 months,Spend Insights,15%,Airport Lounge,242.9689611
+$500 ,1%,0% for 12 months,Spend Insights,15%,Travel Insurance,228.5809346
+$500 ,1%,0% for 12 months,Spend Insights,20%,None,120.2213048
+$500 ,1%,0% for 12 months,Spend Insights,20%,Airport Lounge,228.0055319
+$500 ,1%,0% for 12 months,Spend Insights,20%,Travel Insurance,212.0656838
+$500 ,1%,0% for 12 months,Spend Insights,25%,None,91.8710472
+$500 ,1%,0% for 12 months,Spend Insights,25%,Airport Lounge,165.2406825
+$500 ,1%,0% for 12 months,Spend Insights,25%,Travel Insurance,151.7551298
+$500 ,1%,0% for 12 months,Spend Insights,30%,None,50.41373824
+$500 ,1%,0% for 12 months,Spend Insights,30%,Airport Lounge,93.87598941
+$500 ,1%,0% for 12 months,Spend Insights,30%,Travel Insurance,84.85648591
+$500 ,1%,0% for 12 months,Budget Coaching,15%,None,129.978221
+$500 ,1%,0% for 12 months,Budget Coaching,15%,Airport Lounge,248.5488703
+$500 ,1%,0% for 12 months,Budget Coaching,15%,Travel Insurance,235.1078233
+$500 ,1%,0% for 12 months,Budget Coaching,20%,None,126.1819202
+$500 ,1%,0% for 12 months,Budget Coaching,20%,Airport Lounge,235.9506609
+$500 ,1%,0% for 12 months,Budget Coaching,20%,Travel Insurance,220.7616486
+$500 ,1%,0% for 12 months,Budget Coaching,25%,None,98.40913293
+$500 ,1%,0% for 12 months,Budget Coaching,25%,Airport Lounge,171.8303351
+$500 ,1%,0% for 12 months,Budget Coaching,25%,Travel Insurance,159.4142746
+$500 ,1%,0% for 12 months,Budget Coaching,30%,None,57.13639389
+$500 ,1%,0% for 12 months,Budget Coaching,30%,Airport Lounge,100.6182623
+$500 ,1%,0% for 12 months,Budget Coaching,30%,Travel Insurance,92.25675525
+$500 ,1%,0% for 18 months,Basic App,15%,None,77.63474185
+$500 ,1%,0% for 18 months,Basic App,15%,Airport Lounge,136.4773582
+$500 ,1%,0% for 18 months,Basic App,15%,Travel Insurance,127.8645232
+$500 ,1%,0% for 18 months,Basic App,20%,None,90.49227023
+$500 ,1%,0% for 18 months,Basic App,20%,Airport Lounge,150.023487
+$500 ,1%,0% for 18 months,Basic App,20%,Travel Insurance,139.8914768
+$500 ,1%,0% for 18 months,Basic App,25%,None,76.88003368
+$500 ,1%,0% for 18 months,Basic App,25%,Airport Lounge,121.9355404
+$500 ,1%,0% for 18 months,Basic App,25%,Travel Insurance,112.510646
+$500 ,1%,0% for 18 months,Basic App,30%,None,46.10762043
+$500 ,1%,0% for 18 months,Basic App,30%,Airport Lounge,77.57592416
+$500 ,1%,0% for 18 months,Basic App,30%,Travel Insurance,70.48584322
+$500 ,1%,0% for 18 months,Spend Insights,15%,None,117.7130371
+$500 ,1%,0% for 18 months,Spend Insights,15%,Airport Lounge,195.8680003
+$500 ,1%,0% for 18 months,Spend Insights,15%,Travel Insurance,187.0216396
+$500 ,1%,0% for 18 months,Spend Insights,20%,None,122.746577
+$500 ,1%,0% for 18 months,Spend Insights,20%,Airport Lounge,226.9003674
+$500 ,1%,0% for 18 months,Spend Insights,20%,Travel Insurance,213.3350803
+$500 ,1%,0% for 18 months,Spend Insights,25%,None,98.43836729
+$500 ,1%,0% for 18 months,Spend Insights,25%,Airport Lounge,176.1852154
+$500 ,1%,0% for 18 months,Spend Insights,25%,Travel Insurance,163.2193866
+$500 ,1%,0% for 18 months,Spend Insights,30%,None,59.02530576
+$500 ,1%,0% for 18 months,Spend Insights,30%,Airport Lounge,102.98465
+$500 ,1%,0% for 18 months,Spend Insights,30%,Travel Insurance,94.32425272
+$500 ,1%,0% for 18 months,Budget Coaching,15%,None,121.5371395
+$500 ,1%,0% for 18 months,Budget Coaching,15%,Airport Lounge,196.9149471
+$500 ,1%,0% for 18 months,Budget Coaching,15%,Travel Insurance,188.9158534
+$500 ,1%,0% for 18 months,Budget Coaching,20%,None,127.6340855
+$500 ,1%,0% for 18 months,Budget Coaching,20%,Airport Lounge,232.9880681
+$500 ,1%,0% for 18 months,Budget Coaching,20%,Travel Insurance,220.1403032
+$500 ,1%,0% for 18 months,Budget Coaching,25%,None,103.3794898
+$500 ,1%,0% for 18 months,Budget Coaching,25%,Airport Lounge,182.0551795
+$500 ,1%,0% for 18 months,Budget Coaching,25%,Travel Insurance,169.8841293
+$500 ,1%,0% for 18 months,Budget Coaching,30%,None,64.63987574
+$500 ,1%,0% for 18 months,Budget Coaching,30%,Airport Lounge,108.1847254
+$500 ,1%,0% for 18 months,Budget Coaching,30%,Travel Insurance,100.2431541
+$500 ,2%,None,Basic App,15%,None,181.2206671
+$500 ,2%,None,Basic App,15%,Airport Lounge,351.7929796
+$500 ,2%,None,Basic App,15%,Travel Insurance,329.9028279
+$500 ,2%,None,Basic App,20%,None,167.3827242
+$500 ,2%,None,Basic App,20%,Airport Lounge,303.0724098
+$500 ,2%,None,Basic App,20%,Travel Insurance,281.3921351
+$500 ,2%,None,Basic App,25%,None,131.3829991
+$500 ,2%,None,Basic App,25%,Airport Lounge,220.7584301
+$500 ,2%,None,Basic App,25%,Travel Insurance,202.2590719
+$500 ,2%,None,Basic App,30%,None,76.92541158
+$500 ,2%,None,Basic App,30%,Airport Lounge,133.6783735
+$500 ,2%,None,Basic App,30%,Travel Insurance,120.7937824
+$500 ,2%,None,Spend Insights,15%,None,280.1206401
+$500 ,2%,None,Spend Insights,15%,Airport Lounge,489.4213636
+$500 ,2%,None,Spend Insights,15%,Travel Insurance,468.7695262
+$500 ,2%,None,Spend Insights,20%,None,234.7086938
+$500 ,2%,None,Spend Insights,20%,Airport Lounge,457.6660188
+$500 ,2%,None,Spend Insights,20%,Travel Insurance,430.6066725
+$500 ,2%,None,Spend Insights,25%,None,170.5021796
+$500 ,2%,None,Spend Insights,25%,Airport Lounge,326.9973064
+$500 ,2%,None,Spend Insights,25%,Travel Insurance,301.6294701
+$500 ,2%,None,Spend Insights,30%,None,98.20831855
+$500 ,2%,None,Spend Insights,30%,Airport Lounge,180.92855
+$500 ,2%,None,Spend Insights,30%,Travel Insurance,164.6124611
+$500 ,2%,None,Budget Coaching,15%,None,290.5143187
+$500 ,2%,None,Budget Coaching,15%,Airport Lounge,495.2014195
+$500 ,2%,None,Budget Coaching,15%,Travel Insurance,476.4969614
+$500 ,2%,None,Budget Coaching,20%,None,244.4151743
+$500 ,2%,None,Budget Coaching,20%,Airport Lounge,470.3295303
+$500 ,2%,None,Budget Coaching,20%,Travel Insurance,444.8182292
+$500 ,2%,None,Budget Coaching,25%,None,178.6113937
+$500 ,2%,None,Budget Coaching,25%,Airport Lounge,338.3753122
+$500 ,2%,None,Budget Coaching,25%,Travel Insurance,314.4717746
+$500 ,2%,None,Budget Coaching,30%,None,106.4061988
+$500 ,2%,None,Budget Coaching,30%,Airport Lounge,189.8259913
+$500 ,2%,None,Budget Coaching,30%,Travel Insurance,174.7499143
+$500 ,2%,0% for 12 months,Basic App,15%,None,213.254864
+$500 ,2%,0% for 12 months,Basic App,15%,Airport Lounge,288.5359896
+$500 ,2%,0% for 12 months,Basic App,15%,Travel Insurance,280.8799994
+$500 ,2%,0% for 12 months,Basic App,20%,None,207.7695629
+$500 ,2%,0% for 12 months,Basic App,20%,Airport Lounge,368.8559686
+$500 ,2%,0% for 12 months,Basic App,20%,Travel Insurance,352.9934332
+$500 ,2%,0% for 12 months,Basic App,25%,None,149.8507796
+$500 ,2%,0% for 12 months,Basic App,25%,Airport Lounge,302.790692
+$500 ,2%,0% for 12 months,Basic App,25%,Travel Insurance,283.1236948
+$500 ,2%,0% for 12 months,Basic App,30%,None,84.17915418
+$500 ,2%,0% for 12 months,Basic App,30%,Airport Lounge,165.7591356
+$500 ,2%,0% for 12 months,Basic App,30%,Travel Insurance,152.4116695
+$500 ,2%,0% for 12 months,Spend Insights,15%,None,293.5248745
+$500 ,2%,0% for 12 months,Spend Insights,15%,Airport Lounge,317.2467843
+$500 ,2%,0% for 12 months,Spend Insights,15%,Travel Insurance,312.592939
+$500 ,2%,0% for 12 months,Spend Insights,20%,None,320.6476886
+$500 ,2%,0% for 12 months,Spend Insights,20%,Airport Lounge,457.7548506
+$500 ,2%,0% for 12 months,Spend Insights,20%,Travel Insurance,446.3181439
+$500 ,2%,0% for 12 months,Spend Insights,25%,None,235.3306936
+$500 ,2%,0% for 12 months,Spend Insights,25%,Airport Lounge,441.8716959
+$500 ,2%,0% for 12 months,Spend Insights,25%,Travel Insurance,421.4817257
+$500 ,2%,0% for 12 months,Spend Insights,30%,None,122.277144
+$500 ,2%,0% for 12 months,Spend Insights,30%,Airport Lounge,266.1630234
+$500 ,2%,0% for 12 months,Spend Insights,30%,Travel Insurance,247.0105268
+$500 ,2%,0% for 12 months,Budget Coaching,15%,None,295.8926027
+$500 ,2%,0% for 12 months,Budget Coaching,15%,Airport Lounge,312.6365602
+$500 ,2%,0% for 12 months,Budget Coaching,15%,Travel Insurance,308.8746111
+$500 ,2%,0% for 12 months,Budget Coaching,20%,None,330.2362507
+$500 ,2%,0% for 12 months,Budget Coaching,20%,Airport Lounge,458.3729634
+$500 ,2%,0% for 12 months,Budget Coaching,20%,Travel Insurance,448.3113644
+$500 ,2%,0% for 12 months,Budget Coaching,25%,None,246.3615712
+$500 ,2%,0% for 12 months,Budget Coaching,25%,Airport Lounge,450.0604081
+$500 ,2%,0% for 12 months,Budget Coaching,25%,Travel Insurance,431.2259221
+$500 ,2%,0% for 12 months,Budget Coaching,30%,None,131.0363652
+$500 ,2%,0% for 12 months,Budget Coaching,30%,Airport Lounge,277.9111898
+$500 ,2%,0% for 12 months,Budget Coaching,30%,Travel Insurance,259.517615
+$500 ,2%,0% for 18 months,Basic App,15%,None,157.3419667
+$500 ,2%,0% for 18 months,Basic App,15%,Airport Lounge,157.3089273
+$500 ,2%,0% for 18 months,Basic App,15%,Travel Insurance,154.5194725
+$500 ,2%,0% for 18 months,Basic App,20%,None,201.7271914
+$500 ,2%,0% for 18 months,Basic App,20%,Airport Lounge,298.0732272
+$500 ,2%,0% for 18 months,Basic App,20%,Travel Insurance,289.0089898
+$500 ,2%,0% for 18 months,Basic App,25%,None,158.5722277
+$500 ,2%,0% for 18 months,Basic App,25%,Airport Lounge,296.0827157
+$500 ,2%,0% for 18 months,Basic App,25%,Travel Insurance,280.560545
+$500 ,2%,0% for 18 months,Basic App,30%,None,91.55199291
+$500 ,2%,0% for 18 months,Basic App,30%,Airport Lounge,177.5433169
+$500 ,2%,0% for 18 months,Basic App,30%,Travel Insurance,164.7304826
+$500 ,2%,0% for 18 months,Spend Insights,15%,None,194.0794332
+$500 ,2%,0% for 18 months,Spend Insights,15%,Airport Lounge,161.9188011
+$500 ,2%,0% for 18 months,Spend Insights,15%,Travel Insurance,160.3640961
+$500 ,2%,0% for 18 months,Spend Insights,20%,None,289.4237937
+$500 ,2%,0% for 18 months,Spend Insights,20%,Airport Lounge,339.7793418
+$500 ,2%,0% for 18 months,Spend Insights,20%,Travel Insurance,334.1733657
+$500 ,2%,0% for 18 months,Spend Insights,25%,None,248.4566667
+$500 ,2%,0% for 18 months,Spend Insights,25%,Airport Lounge,392.618719
+$500 ,2%,0% for 18 months,Spend Insights,25%,Travel Insurance,379.7203466
+$500 ,2%,0% for 18 months,Spend Insights,30%,None,136.8616709
+$500 ,2%,0% for 18 months,Spend Insights,30%,Airport Lounge,277.8234793
+$500 ,2%,0% for 18 months,Spend Insights,30%,Travel Insurance,261.3917777
+$500 ,2%,0% for 18 months,Budget Coaching,15%,None,191.5449705
+$500 ,2%,0% for 18 months,Budget Coaching,15%,Airport Lounge,155.7320902
+$500 ,2%,0% for 18 months,Budget Coaching,15%,Travel Insurance,154.6392992
+$500 ,2%,0% for 18 months,Budget Coaching,20%,None,293.7512548
+$500 ,2%,0% for 18 months,Budget Coaching,20%,Airport Lounge,336.366757
+$500 ,2%,0% for 18 months,Budget Coaching,20%,Travel Insurance,331.707731
+$500 ,2%,0% for 18 months,Budget Coaching,25%,None,257.1353534
+$500 ,2%,0% for 18 months,Budget Coaching,25%,Airport Lounge,394.8345918
+$500 ,2%,0% for 18 months,Budget Coaching,25%,Travel Insurance,383.2914462
+$500 ,2%,0% for 18 months,Budget Coaching,30%,None,144.5933771
+$500 ,2%,0% for 18 months,Budget Coaching,30%,Airport Lounge,286.5365966
+$500 ,2%,0% for 18 months,Budget Coaching,30%,Travel Insurance,270.9617648
+$500 ,3%,None,Basic App,15%,None,266.9599191
+$500 ,3%,None,Basic App,15%,Airport Lounge,424.1716071
+$500 ,3%,None,Basic App,15%,Travel Insurance,407.9986217
+$500 ,3%,None,Basic App,20%,None,239.4170788
+$500 ,3%,None,Basic App,20%,Airport Lounge,432.1970341
+$500 ,3%,None,Basic App,20%,Travel Insurance,408.6405888
+$500 ,3%,None,Basic App,25%,None,188.5785689
+$500 ,3%,None,Basic App,25%,Airport Lounge,330.7738709
+$500 ,3%,None,Basic App,25%,Travel Insurance,307.0058971
+$500 ,3%,None,Basic App,30%,None,124.3427253
+$500 ,3%,None,Basic App,30%,Airport Lounge,200.0463039
+$500 ,3%,None,Basic App,30%,Travel Insurance,183.7971024
+$500 ,3%,None,Spend Insights,15%,None,387.3938959
+$500 ,3%,None,Spend Insights,15%,Airport Lounge,496.9372626
+$500 ,3%,None,Spend Insights,15%,Travel Insurance,485.6708008
+$500 ,3%,None,Spend Insights,20%,None,354.5211158
+$500 ,3%,None,Spend Insights,20%,Airport Lounge,577.956123
+$500 ,3%,None,Spend Insights,20%,Travel Insurance,556.9263477
+$500 ,3%,None,Spend Insights,25%,None,260.8059524
+$500 ,3%,None,Spend Insights,25%,Airport Lounge,490.9395692
+$500 ,3%,None,Spend Insights,25%,Travel Insurance,462.2950278
+$500 ,3%,None,Spend Insights,30%,None,157.7149124
+$500 ,3%,None,Spend Insights,30%,Airport Lounge,286.6759541
+$500 ,3%,None,Spend Insights,30%,Travel Insurance,264.9370172
+$500 ,3%,None,Budget Coaching,15%,None,393.7768001
+$500 ,3%,None,Budget Coaching,15%,Airport Lounge,493.9262196
+$500 ,3%,None,Budget Coaching,15%,Travel Insurance,484.1663956
+$500 ,3%,None,Budget Coaching,20%,None,364.9296427
+$500 ,3%,None,Budget Coaching,20%,Airport Lounge,582.703861
+$500 ,3%,None,Budget Coaching,20%,Travel Insurance,563.6924054
+$500 ,3%,None,Budget Coaching,25%,None,268.7814873
+$500 ,3%,None,Budget Coaching,25%,Airport Lounge,501.7419553
+$500 ,3%,None,Budget Coaching,25%,Travel Insurance,474.8068927
+$500 ,3%,None,Budget Coaching,30%,None,164.7443585
+$500 ,3%,None,Budget Coaching,30%,Airport Lounge,296.2313239
+$500 ,3%,None,Budget Coaching,30%,Travel Insurance,275.7927031
+$500 ,3%,0% for 12 months,Basic App,15%,None,213.3377911
+$500 ,3%,0% for 12 months,Basic App,15%,Airport Lounge,199.7671987
+$500 ,3%,0% for 12 months,Basic App,15%,Travel Insurance,197.0503766
+$500 ,3%,0% for 12 months,Basic App,20%,None,279.7010797
+$500 ,3%,0% for 12 months,Basic App,20%,Airport Lounge,363.2004283
+$500 ,3%,0% for 12 months,Basic App,20%,Travel Insurance,355.1134416
+$500 ,3%,0% for 12 months,Basic App,25%,None,226.7225437
+$500 ,3%,0% for 12 months,Basic App,25%,Airport Lounge,387.3215432
+$500 ,3%,0% for 12 months,Basic App,25%,Travel Insurance,371.1808906
+$500 ,3%,0% for 12 months,Basic App,30%,None,130.7354052
+$500 ,3%,0% for 12 months,Basic App,30%,Airport Lounge,254.4221386
+$500 ,3%,0% for 12 months,Basic App,30%,Travel Insurance,237.5926156
+$500 ,3%,0% for 12 months,Spend Insights,15%,None,244.0862784
+$500 ,3%,0% for 12 months,Spend Insights,15%,Airport Lounge,201.5050326
+$500 ,3%,0% for 12 months,Spend Insights,15%,Travel Insurance,199.8610942
+$500 ,3%,0% for 12 months,Spend Insights,20%,None,368.9482523
+$500 ,3%,0% for 12 months,Spend Insights,20%,Airport Lounge,392.423797
+$500 ,3%,0% for 12 months,Spend Insights,20%,Travel Insurance,387.5788983
+$500 ,3%,0% for 12 months,Spend Insights,25%,None,342.8305461
+$500 ,3%,0% for 12 months,Spend Insights,25%,Airport Lounge,471.3510673
+$500 ,3%,0% for 12 months,Spend Insights,25%,Travel Insurance,459.8539292
+$500 ,3%,0% for 12 months,Spend Insights,30%,None,199.5566841
+$500 ,3%,0% for 12 months,Spend Insights,30%,Airport Lounge,376.3105898
+$500 ,3%,0% for 12 months,Spend Insights,30%,Travel Insurance,357.9323922
+$500 ,3%,0% for 12 months,Budget Coaching,15%,None,239.995745
+$500 ,3%,0% for 12 months,Budget Coaching,15%,Airport Lounge,194.702895
+$500 ,3%,0% for 12 months,Budget Coaching,15%,Travel Insurance,193.5755433
+$500 ,3%,0% for 12 months,Budget Coaching,20%,None,370.8237537
+$500 ,3%,0% for 12 months,Budget Coaching,20%,Airport Lounge,387.2749596
+$500 ,3%,0% for 12 months,Budget Coaching,20%,Travel Insurance,383.3816427
+$500 ,3%,0% for 12 months,Budget Coaching,25%,None,350.997289
+$500 ,3%,0% for 12 months,Budget Coaching,25%,Airport Lounge,470.4488462
+$500 ,3%,0% for 12 months,Budget Coaching,25%,Travel Insurance,460.3897501
+$500 ,3%,0% for 12 months,Budget Coaching,30%,None,208.6079858
+$500 ,3%,0% for 12 months,Budget Coaching,30%,Airport Lounge,383.8978782
+$500 ,3%,0% for 12 months,Budget Coaching,30%,Travel Insurance,366.7650482
+$500 ,3%,0% for 18 months,Basic App,15%,None,89.83889258
+$500 ,3%,0% for 18 months,Basic App,15%,Airport Lounge,34.43071025
+$500 ,3%,0% for 18 months,Basic App,15%,Travel Insurance,34.09890947
+$500 ,3%,0% for 18 months,Basic App,20%,None,219.5001188
+$500 ,3%,0% for 18 months,Basic App,20%,Airport Lounge,227.0103043
+$500 ,3%,0% for 18 months,Basic App,20%,Travel Insurance,223.5410616
+$500 ,3%,0% for 18 months,Basic App,25%,None,217.134872
+$500 ,3%,0% for 18 months,Basic App,25%,Airport Lounge,308.9976507
+$500 ,3%,0% for 18 months,Basic App,25%,Travel Insurance,299.8052735
+$500 ,3%,0% for 18 months,Basic App,30%,None,131.9280299
+$500 ,3%,0% for 18 months,Basic App,30%,Airport Lounge,240.5142749
+$500 ,3%,0% for 18 months,Basic App,30%,Travel Insurance,227.4605249
+$500 ,3%,0% for 18 months,Spend Insights,15%,None,92.68075876
+$500 ,3%,0% for 18 months,Spend Insights,15%,Airport Lounge,28.27444974
+$500 ,3%,0% for 18 months,Spend Insights,15%,Travel Insurance,28.11295113
+$500 ,3%,0% for 18 months,Spend Insights,20%,None,263.1949257
+$500 ,3%,0% for 18 months,Spend Insights,20%,Airport Lounge,233.3991588
+$500 ,3%,0% for 18 months,Spend Insights,20%,Travel Insurance,231.378759
+$500 ,3%,0% for 18 months,Spend Insights,25%,None,304.6301303
+$500 ,3%,0% for 18 months,Spend Insights,25%,Airport Lounge,347.1328783
+$500 ,3%,0% for 18 months,Spend Insights,25%,Travel Insurance,341.3250376
+$500 ,3%,0% for 18 months,Spend Insights,30%,None,202.9363497
+$500 ,3%,0% for 18 months,Spend Insights,30%,Airport Lounge,325.7501398
+$500 ,3%,0% for 18 months,Spend Insights,30%,Travel Insurance,314.1648482
+$500 ,3%,0% for 18 months,Budget Coaching,15%,None,86.53703447
+$500 ,3%,0% for 18 months,Budget Coaching,15%,Airport Lounge,21.21248479
+$500 ,3%,0% for 18 months,Budget Coaching,15%,Travel Insurance,21.14653169
+$500 ,3%,0% for 18 months,Budget Coaching,20%,None,260.4558366
+$500 ,3%,0% for 18 months,Budget Coaching,20%,Airport Lounge,226.9531425
+$500 ,3%,0% for 18 months,Budget Coaching,20%,Travel Insurance,225.5075482
+$500 ,3%,0% for 18 months,Budget Coaching,25%,None,307.632732
+$500 ,3%,0% for 18 months,Budget Coaching,25%,Airport Lounge,342.7333364
+$500 ,3%,0% for 18 months,Budget Coaching,25%,Travel Insurance,337.9067883
+$500 ,3%,0% for 18 months,Budget Coaching,30%,None,209.9875754
+$500 ,3%,0% for 18 months,Budget Coaching,30%,Airport Lounge,327.7541648
+$500 ,3%,0% for 18 months,Budget Coaching,30%,Travel Insurance,317.2944289
