@@ -289,6 +289,66 @@ def bundle_analysis():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+
+#for segmentation & targeting
+@app.route("/segmentation-strategy", methods=["GET"])
+def segmentation_strategy():
+    data = [
+        {
+            "segment": "Budget Savvy",
+            "size": "30%",
+            "demographic": "Young Adults",
+            "spending_score": "Low",
+            "loyalty": "Medium",
+            "profit": 15200,
+            "annual_fee": "$0",
+            "cashback_rate": "2%",
+            "intro_apr": "0% for 12 months",
+            "digital_feature": "Basic App",
+            "apr": "20%",
+            "perk": "None",
+            "top_feature_1": "Annual Fee",
+            "top_feature_2": "Cashback",
+            "top_feature_3": "Intro APR"
+        },
+        {
+            "segment": "Experience Seekers",
+            "size": "40%",
+            "demographic": "Mid-age Professionals",
+            "spending_score": "High",
+            "loyalty": "High",
+            "profit": 35800,
+            "annual_fee": "$150",
+            "cashback_rate": "3%",
+            "intro_apr": "0% for 18 months",
+            "digital_feature": "Budget Coaching",
+            "apr": "25%",
+            "perk": "Airport Lounge",
+            "top_feature_1": "Perk",
+            "top_feature_2": "Digital Feature",
+            "top_feature_3": "Cashback"
+        },
+        {
+            "segment": "Convenience First",
+            "size": "30%",
+            "demographic": "Busy Parents",
+            "spending_score": "Medium",
+            "loyalty": "Medium",
+            "profit": 28500,
+            "annual_fee": "$95",
+            "cashback_rate": "1%",
+            "intro_apr": "None",
+            "digital_feature": "Spend Insights",
+            "apr": "20%",
+            "perk": "Travel Insurance",
+            "top_feature_1": "Digital Feature",
+            "top_feature_2": "Intro APR",
+            "top_feature_3": "APR"
+        }
+    ]
+    return jsonify(data)
+
+
 @app.after_request
 def add_cors_headers(response):
     # Ensures all responses include CORS headers
