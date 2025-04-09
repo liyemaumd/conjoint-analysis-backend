@@ -351,18 +351,31 @@ def segmentation_strategy():
 #for product line optimization
 @app.route("/product-line-optimization", methods=["GET"])
 def product_line_optimization():
-    segment = request.args.get("segment", "Experience Seekers")
-    # Simulated dummy data
-    two_product_line = [
-        {"segment": segment, "annual_fee": "$0", "cashback": "2%", "perk": "None", "market_share": 22, "profit": 15000},
-        {"segment": segment, "annual_fee": "$150", "cashback": "3%", "perk": "Lounge Access", "market_share": 26, "profit": 18500}
-    ]
-    three_product_line = [
-        {"segment": segment, "annual_fee": "$0", "cashback": "1%", "perk": "None", "market_share": 18, "profit": 12000},
-        {"segment": segment, "annual_fee": "$95", "cashback": "2%", "perk": "Travel Insurance", "market_share": 21, "profit": 16500},
-        {"segment": segment, "annual_fee": "$500", "cashback": "3%", "perk": "Lounge Access", "market_share": 30, "profit": 22000}
-    ]
-    return jsonify({"two_product_line": two_product_line, "three_product_line": three_product_line})
+    k = int(request.args.get("k", 3))
+
+    segments = ["Budget Savvy", "Experience Seekers", "Convenience First"]
+    perks = ["None", "Airport Lounge", "Travel Insurance"]
+    aprs = ["15%", "20%", "25%", "30%"]
+    fees = ["$0", "$95", "$150", "$500"]
+    cashback = ["1%", "2%", "3%"]
+    intro_aprs = ["None", "0% for 12 months", "0% for 18 months"]
+
+    products = [{
+        "annual_fee": random.choice(fees),
+        "cashback": random.choice(cashback),
+        "intro_apr": random.choice(intro_aprs),
+        "perk": random.choice(perks),
+        "profit": round(random.uniform(10000, 25000), 2)
+    } for _ in range(k)]
+
+    market_share = []
+    for seg in segments:
+        shares = [random.uniform(10, 50) for _ in range(k)]
+        total = sum(shares)
+        norm_shares = [s / total * 100 for s in shares]
+        market_share.append({"segment": seg, "shares": norm_shares})
+
+    return jsonify({"products": products, "market_share": market_share})
 
 
 @app.after_request
