@@ -348,6 +348,22 @@ def segmentation_strategy():
     ]
     return jsonify(data)
 
+#for product line optimization
+@app.route("/product-line-optimization", methods=["GET"])
+def product_line_optimization():
+    segment = request.args.get("segment", "Experience Seekers")
+    # Simulated dummy data
+    two_product_line = [
+        {"segment": segment, "annual_fee": "$0", "cashback": "2%", "perk": "None", "market_share": 22, "profit": 15000},
+        {"segment": segment, "annual_fee": "$150", "cashback": "3%", "perk": "Lounge Access", "market_share": 26, "profit": 18500}
+    ]
+    three_product_line = [
+        {"segment": segment, "annual_fee": "$0", "cashback": "1%", "perk": "None", "market_share": 18, "profit": 12000},
+        {"segment": segment, "annual_fee": "$95", "cashback": "2%", "perk": "Travel Insurance", "market_share": 21, "profit": 16500},
+        {"segment": segment, "annual_fee": "$500", "cashback": "3%", "perk": "Lounge Access", "market_share": 30, "profit": 22000}
+    ]
+    return jsonify({"two_product_line": two_product_line, "three_product_line": three_product_line})
+
 
 @app.after_request
 def add_cors_headers(response):
