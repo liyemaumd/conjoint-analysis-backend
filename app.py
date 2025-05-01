@@ -80,6 +80,9 @@ else:
     print(f"⚠️ Data file not found at {DATA_FILE}")
 
 
+#
+# Optimal pricing
+#
 @app.route("/optimize-price", methods=["POST"])
 def optimize_price():
     data = request.get_json()
@@ -220,42 +223,42 @@ def get_feature_importance():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route('/segmentation-strategy', methods=['GET'])
-def get_segmentation_data():
-    # Sample static data for illustration
-    data = [
-        {
-            "segment": "Value Seekers",
-            "annual_fee": "$0",
-            "cashback_rate": "1%",
-            "intro_apr": "0% for 12 months",
-            "digital_feature": "Basic App",
-            "interest_rate": "20%",
-            "perk": "None",
-            "profit": 12000
-        },
-        {
-            "segment": "Frequent Travelers",
-            "annual_fee": "$150",
-            "cashback_rate": "2%",
-            "intro_apr": "0% for 18 months",
-            "digital_feature": "Spend Insights",
-            "interest_rate": "25%",
-            "perk": "Airport Lounge",
-            "profit": 27000
-        },
-        {
-            "segment": "Premium Users",
-            "annual_fee": "$500",
-            "cashback_rate": "3%",
-            "intro_apr": "None",
-            "digital_feature": "Budget Coaching",
-            "interest_rate": "30%",
-            "perk": "Travel Insurance",
-            "profit": 34000
-        }
-    ]
-    return jsonify(data)
+#@app.route('/segmentation-strategy', methods=['GET'])
+#def get_segmentation_data():
+#    # Sample static data for illustration
+#    data = [
+#        {
+#            "segment": "Value Seekers",
+#            "annual_fee": "$0",
+#            "cashback_rate": "1%",
+#            "intro_apr": "0% for 12 months",
+#            "digital_feature": "Basic App",
+#            "interest_rate": "20%",
+#            "perk": "None",
+#            "profit": 12000
+#        },
+#        {
+#            "segment": "Frequent Travelers",
+#            "annual_fee": "$150",
+#            "cashback_rate": "2%",
+#            "intro_apr": "0% for 18 months",
+#            "digital_feature": "Spend Insights",
+#            "interest_rate": "25%",
+#            "perk": "Airport Lounge",
+#            "profit": 27000
+#        },
+#        {
+#            "segment": "Premium Users",
+#            "annual_fee": "$500",
+#            "cashback_rate": "3%",
+#            "intro_apr": "None",
+#            "digital_feature": "Budget Coaching",
+#            "interest_rate": "30%",
+#            "perk": "Travel Insurance",
+#            "profit": 34000
+#        }
+#    ]
+#    return jsonify(data)
 
 @app.route('/bundle-analysis', methods=['POST'])
 def bundle_analysis():
@@ -294,6 +297,12 @@ def bundle_analysis():
 #for segmentation & targeting
 @app.route("/segmentation-strategy", methods=["GET"])
 def segmentation_strategy():
+
+    best_bundles = bundle_profit_seg_df.loc[df.groupby("Segment")["Profit"].idxmax()]
+    # Reset index for a clean result
+    best_bundles = best_bundles.reset_index(drop=True)
+    bundle_profit_seg_file
+
     data = [
         {
             "segment": "Budget Savvy",
