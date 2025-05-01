@@ -298,10 +298,9 @@ def bundle_analysis():
 @app.route("/segmentation-strategy", methods=["GET"])
 def segmentation_strategy():
 
-    best_bundles = bundle_profit_seg_df.loc[df.groupby("Segment")["Profit"].idxmax()]
+    best_bundles = bundle_profit_seg_df.loc[bundle_profit_seg_df.groupby("Segment")["Profit"].idxmax()]
     # Reset index for a clean result
     best_bundles = best_bundles.reset_index(drop=True)
-    bundle_profit_seg_file
 
     data = [
         {
