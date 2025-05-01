@@ -302,59 +302,82 @@ def segmentation_strategy():
     # Reset index for a clean result
     best_bundles = best_bundles.reset_index(drop=True)
 
-    data = [
-        {
-            "segment": "Budget Savvy",
+    # Top 10 bundles
+    data = []                  
+
+    for i in range(len(best_bundles)):
+        bundle = {
+            "segment": best_bundles.loc[i, 'Segment'],
             "size": "30%",
             "demographic": "Young Adults",
             "spending_score": "Low",
             "loyalty": "Medium",
-            "profit": 15200,
-            "annual_fee": "$0",
-            "cashback_rate": "2%",
-            "intro_apr": "0% for 12 months",
-            "digital_feature": "Basic App",
-            "apr": "20%",
-            "perk": "None",
+            "annual_fee": best_bundles.loc[i, 'AnnualFee'],
+            "cashback_rate": best_bundles.loc[i, 'CashBackRate'],
+            "intro_apr": best_bundles.loc[i, 'IntroAPR'],
+            "digital_feature": best_bundles.loc[i, 'DigitalFeature'],
+            "apr": best_bundles.loc[i, 'APR'],
+            "perk": best_bundles.loc[i, 'Perk'],
+            "profit": best_bundles.loc[i, 'Profit'],
             "top_feature_1": "Annual Fee",
             "top_feature_2": "Cashback",
             "top_feature_3": "Intro APR"
-        },
-        {
-            "segment": "Experience Seekers",
-            "size": "40%",
-            "demographic": "Mid-age Professionals",
-            "spending_score": "High",
-            "loyalty": "High",
-            "profit": 35800,
-            "annual_fee": "$150",
-            "cashback_rate": "3%",
-            "intro_apr": "0% for 18 months",
-            "digital_feature": "Budget Coaching",
-            "apr": "25%",
-            "perk": "Airport Lounge",
-            "top_feature_1": "Perk",
-            "top_feature_2": "Digital Feature",
-            "top_feature_3": "Cashback"
-        },
-        {
-            "segment": "Convenience First",
-            "size": "30%",
-            "demographic": "Busy Parents",
-            "spending_score": "Medium",
-            "loyalty": "Medium",
-            "profit": 28500,
-            "annual_fee": "$95",
-            "cashback_rate": "1%",
-            "intro_apr": "None",
-            "digital_feature": "Spend Insights",
-            "apr": "20%",
-            "perk": "Travel Insurance",
-            "top_feature_1": "Digital Feature",
-            "top_feature_2": "Intro APR",
-            "top_feature_3": "APR"
         }
-    ]
+        data.append(bundle)
+
+#    data = [
+#        {
+#            "segment": "Budget Savvy",
+#            "size": "30%",
+#            "demographic": "Young Adults",
+#            "spending_score": "Low",
+#            "loyalty": "Medium",
+#            "profit": 15200,
+#            "annual_fee": "$0",
+#            "cashback_rate": "2%",
+#            "intro_apr": "0% for 12 months",
+#            "digital_feature": "Basic App",
+#            "apr": "20%",
+#            "perk": "None",
+#            "top_feature_1": "Annual Fee",
+#            "top_feature_2": "Cashback",
+#            "top_feature_3": "Intro APR"
+#        },
+#        {
+#            "segment": "Experience Seekers",
+#            "size": "40%",
+#            "demographic": "Mid-age Professionals",
+#            "spending_score": "High",
+#            "loyalty": "High",
+#            "profit": 35800,
+#            "annual_fee": "$150",
+#            "cashback_rate": "3%",
+#            "intro_apr": "0% for 18 months",
+#            "digital_feature": "Budget Coaching",
+#            "apr": "25%",
+#            "perk": "Airport Lounge",
+#            "top_feature_1": "Perk",
+#            "top_feature_2": "Digital Feature",
+#            "top_feature_3": "Cashback"
+#        },
+#        {
+#            "segment": "Convenience First",
+#            "size": "30%",
+#            "demographic": "Busy Parents",
+#            "spending_score": "Medium",
+#            "loyalty": "Medium",
+#            "profit": 28500,
+#            "annual_fee": "$95",
+#            "cashback_rate": "1%",
+#            "intro_apr": "None",
+#            "digital_feature": "Spend Insights",
+#            "apr": "20%",
+#            "perk": "Travel Insurance",
+#            "top_feature_1": "Digital Feature",
+#            "top_feature_2": "Intro APR",
+#            "top_feature_3": "APR"
+#        }
+#    ]
     return jsonify(data)
 
 #for product line optimization
