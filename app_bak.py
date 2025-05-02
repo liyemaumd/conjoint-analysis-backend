@@ -380,78 +380,23 @@ def segmentation_strategy():
 #    ]
     return jsonify(data)
 
-
 #
 #for market simulation
 #
-def simulate_market_share(bundles, segment, df):
-    """
-    Simulate market share using multinomial logit for a segment.
-
-    Parameters:
-        bundles: list of dicts from JS (keys are lowercase with underscores)
-        segment: string (e.g. 'Students')
-        df: coefficient DataFrame with columns: Attribute, Level, Segment, Coefficient
-
-    Returns:
-        list of dicts with keys: bundle_index, utility, market_share
-    """
-    # Normalize keys: JS keys (e.g., annual_fee) → CSV keys (e.g., Annual Fee)
-    key_map = {
-        "annual_fee": "Annual Fee",
-        "cashback_rate": "Cashback Rate",
-        "intro_apr": "Intro APR",
-        "digital_feature": "Digital Feature",
-        "perk": "Perk"
-    }
-
-    # Get segment-specific coefficients or fall back to 'All'
-    seg_df = df[df['Segment'] == segment]
-    if seg_df.empty:
-        seg_df = df[df['Segment'] == 'All']
-    seg_df = seg_df[seg_df["Attribute"] != "Segment Prob"]
-
-    utilities = []
-    for bundle in bundles:
-        utility = 0.0
-        for js_key, level in bundle.items():
-            attr = key_map.get(js_key)
-            if not attr:
-                continue  # skip unknown keys
-            match = seg_df[(seg_df['Attribute'] == attr) & (seg_df['Level'] == level)]
-            if not match.empty:
-                utility += match['Coefficient'].values[0]
-        utilities.append(utility)
-
-    exp_utilities = np.exp(utilities)
-    total = np.sum(exp_utilities)
-    shares = exp_utilities / total
-
-    return [
-        {
-            "bundle_index": i,
-            "utility": round(utilities[i], 3),
-            "market_share": round(shares[i] * 100, 2)
-        }
-        for i in range(len(bundles))
-    ]
-
-
 @app.route("/simulate-market", methods=['POST'])
 def simulate_market():
-    payload = request.get_json()
-    bundles = payload.get("bundles", [])
-#    segments = payload.get("segments", [])  # <-- you provide this list
-    segments = conjoint_df["Segment"].unique().tolist()
+    data = request.json
+    bundles = data.get('bundles', [])
+    segments = ['Students', 'Professionals', 'Seniors']
 
-    results_by_segment = {}
-
+    segment_shares = {}
     for segment in segments:
-        segment_results = simulate_market_share(bundles, segment, conjoint_df)
-        # Just return the share values
-        results_by_segment[segment] = [r["market_share"] for r in segment_results]
+        raw_scores = [random.uniform(0.5, 1.5) for _ in bundles]
+        total = sum(raw_scores)
+        shares = [100 * score / total for score in raw_scores]
+        segment_shares[segment] = shares
 
-    return jsonify({"segment_shares": results_by_segment})
+    return jsonify({'segment_shares': segment_shares})
 
 
 #
