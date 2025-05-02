@@ -3,6 +3,7 @@ from flask_cors import CORS
 import os
 import pandas as pd
 import random
+import numpy as np
 
 app = Flask(__name__)
 
