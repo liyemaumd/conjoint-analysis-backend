@@ -380,7 +380,29 @@ def segmentation_strategy():
 #    ]
     return jsonify(data)
 
+#
+#for market simulation
+#
+@app.route("/simulate-market", methods=['POST'])
+def simulate_market():
+    data = request.json
+    bundles = data.get('bundles', [])
+    n = len(bundles)
+
+    if n == 0:
+        return jsonify({'results': []})
+
+    raw_scores = [random.uniform(0.5, 1.5) for _ in bundles]
+    total = sum(raw_scores)
+    market_shares = [100 * score / total for score in raw_scores]
+
+    results = [{'market_share': share} for share in market_shares]
+    return jsonify({'results': results})
+
+
+#
 #for product line optimization
+#
 @app.route("/product-line-optimization", methods=["GET"])
 def product_line_optimization():
     k = int(request.args.get("k", 3))
