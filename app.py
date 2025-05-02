@@ -387,17 +387,16 @@ def segmentation_strategy():
 def simulate_market():
     data = request.json
     bundles = data.get('bundles', [])
-    n = len(bundles)
+    segments = ['Students', 'Professionals', 'Seniors']
 
-    if n == 0:
-        return jsonify({'results': []})
+    segment_shares = {}
+    for segment in segments:
+        raw_scores = [random.uniform(0.5, 1.5) for _ in bundles]
+        total = sum(raw_scores)
+        shares = [100 * score / total for score in raw_scores]
+        segment_shares[segment] = shares
 
-    raw_scores = [random.uniform(0.5, 1.5) for _ in bundles]
-    total = sum(raw_scores)
-    market_shares = [100 * score / total for score in raw_scores]
-
-    results = [{'market_share': share} for share in market_shares]
-    return jsonify({'results': results})
+    return jsonify({'segment_shares': segment_shares})
 
 
 #
